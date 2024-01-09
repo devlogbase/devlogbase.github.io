@@ -1,22 +1,17 @@
 # main links
 main:
-  - title: "Home"
-    url: https://devlogbase.github.io/
-
-  - title: "About"
-    url: /about/
-
-  - title: "GitHub"
-    url: https://github.com/devlogbase
-
-  # - title: "Projects"
-  #   url: /projects/
-
-  # - title: "Categories"
-  #   url: /categories/
+  - title: "Quick-Start Guide"
+    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  # - title: "About"
+  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
 
 # sidebar navigation (categories)
-# 2022.02.15 sidebar update : simple ver.
 categories:
   - title: "Categories1"
     url: /categories/categories1/
