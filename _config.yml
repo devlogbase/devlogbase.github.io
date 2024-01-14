@@ -19,7 +19,7 @@ minimal_mistakes_skin: "plum" # "default" "air", "aqua", ...
 
 # Site Settings
 locale: "ko-KR" #"en-US"
-title: "devLogBase's Blog" # 상단 헤더에 보이는 블로그 명
+title: "devLogBase" # 상단 헤더에 보이는 블로그 명
 title_separator: "&#124;"
 subtitle: # site tagline that appears below site title in masthead
 name: "devlogbase" # 블로그 닉네임 설정
@@ -99,7 +99,7 @@ analytics:
 # Site Author
 author:
   name: "devlogbase" # 블로그 닉네임
-  avatar: "/assets/images/meee.jpg" # 블로그 프로필 사진
+  avatar: "/assets/images/meee.png" # 블로그 프로필 사진
   #   bio              : "hi all!"
   # location         : "Seoul, Korea"
   # email            : "youremailhere@xxxxxx.com"
