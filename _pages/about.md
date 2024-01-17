@@ -1,8 +1,8 @@
 ---
-title: "Hi all! I'm OOOOOO👋🏻"
+title: "Hi all! I'm devLogBase👋🏻"
 permalink: /about/
 layout: single
 comments: false
 ---
 
-본인 소개 여기에 입력
+안녕하세요! devLogBase의 개발관련 블로그입니다.
