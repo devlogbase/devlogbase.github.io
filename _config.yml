@@ -98,7 +98,7 @@ analytics:
 
 # Site Author
 author:
-  name: "devlogbase" # 블로그 닉네임
+  name: "DevLogBase" # 블로그 닉네임
   avatar: "/assets/images/meee.png" # 블로그 프로필 사진
   #   bio              : "hi all!"
   # location         : "Seoul, Korea"
@@ -217,7 +217,7 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
-  # - jekyll-feed
+  - jekyll-feed
   - jekyll-include-cache
 
 # mimic GitHub Pages with --safe
