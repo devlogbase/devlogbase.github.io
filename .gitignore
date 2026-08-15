@@ -21,6 +21,10 @@ codekit-config.json
 # macOS
 .DS_Store
 
+# Windows Explorer thumbnail cache
+photothumb.db
+Thumbs.db
+
 # Jekyll generated files
 .jekyll-cache
 .jekyll-metadata
