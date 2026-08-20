@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" font-family="'Segoe UI', 'Noto Sans KR', system-ui, sans-serif">
+<svg width="800" height="380" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" font-family="'Segoe UI', 'Noto Sans KR', system-ui, sans-serif">
   <rect x="0" y="0" width="800" height="380" fill="#ffffff"/>
   <text x="40" y="52" font-size="22" font-weight="700" fill="rgb(7,7,7)">하루 시총 증가분 vs 흑색종 하나의 장기 매출 전망</text>
   <text x="40" y="78" font-size="14" fill="#6b6b6b">모더나 시총 증가분(2026-08-19 하루)과 2035년 흑색종 적응증 매출 전망 비교</text>

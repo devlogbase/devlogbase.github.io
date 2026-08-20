@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" font-family="'Segoe UI', 'Noto Sans KR', system-ui, sans-serif">
+<svg width="800" height="460" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" font-family="'Segoe UI', 'Noto Sans KR', system-ui, sans-serif">
   <rect x="0" y="0" width="800" height="460" fill="#ffffff"/>
   <text x="40" y="52" font-size="22" font-weight="700" fill="rgb(7,7,7)">애널리스트 목표주가, 하루 만에 이렇게 바뀌었습니다</text>
   <text x="40" y="78" font-size="14" fill="#6b6b6b">발표 전(8/18 이전) vs 수정 후(8/19) 목표주가, 단위: 달러</text>

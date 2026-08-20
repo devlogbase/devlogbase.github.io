@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" font-family="'Segoe UI', 'Noto Sans KR', system-ui, sans-serif">
+<svg width="800" height="440" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" font-family="'Segoe UI', 'Noto Sans KR', system-ui, sans-serif">
   <rect x="0" y="0" width="800" height="440" fill="#ffffff"/>
   <text x="40" y="52" font-size="22" font-weight="700" fill="rgb(7,7,7)">모더나(MRNA) 주가 추이 — 정규장부터 애프터마켓까지</text>
   <text x="40" y="78" font-size="14" fill="#6b6b6b">2026-08-18~19(현지시간) 기준 · StockAnalysis.com 데이터</text>

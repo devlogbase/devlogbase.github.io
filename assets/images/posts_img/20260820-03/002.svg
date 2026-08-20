@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" font-family="'Segoe UI', 'Noto Sans KR', system-ui, sans-serif">
+<svg width="800" height="460" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" font-family="'Segoe UI', 'Noto Sans KR', system-ui, sans-serif">
   <rect x="0" y="0" width="800" height="460" fill="#ffffff"/>
   <text x="40" y="42" font-size="22" font-weight="700" fill="rgb(7,7,7)">비트코인 가격 흐름 — 8월 19일 숏스퀴즈 전후</text>
   <text x="40" y="70" font-size="14" fill="#6b6b6b">8/19 09:00 약 6만4,700달러 → 8/20 06:50 6만9,818달러(장중 6만9,890달러)</text>
