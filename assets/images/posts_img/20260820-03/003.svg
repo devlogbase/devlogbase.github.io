@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="'Segoe UI', 'Noto Sans KR', system-ui, sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#263343"/>
+    </marker>
+    <marker id="arrowRed" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#c0392b"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="800" height="500" fill="#ffffff"/>
+  <text x="40" y="50" font-size="22" font-weight="700" fill="rgb(7,7,7)">캐스케이드 청산(숏스퀴즈)이 반복되는 구조</text>
+  <text x="40" y="76" font-size="14" fill="#6b6b6b">청산 = 시장가 매수 주문 → 가격 추가 상승 → 다음 청산가 터치, 이 과정이 도미노처럼 반복됩니다</text>
+
+  <!-- boxes -->
+  <g>
+    <rect x="120" y="105" width="480" height="64" rx="10" fill="#263343"/>
+    <text x="360" y="132" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">① 숏 포지션 마진 부족 → 거래소 청산엔진 작동</text>
+    <text x="360" y="154" font-size="12.5" fill="#dfe3e8" text-anchor="middle">청산엔진이 시장가로 '매수' 주문을 낸다</text>
+  </g>
+
+  <line x1="360" y1="169" x2="360" y2="200" stroke="#263343" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <g>
+    <rect x="120" y="204" width="480" height="64" rx="10" fill="#3a4a60"/>
+    <text x="360" y="231" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">② 매수 주문 체결 → 가격이 추가로 상승</text>
+    <text x="360" y="253" font-size="12.5" fill="#dfe3e8" text-anchor="middle">유동성이 얇을수록 가격이 더 크게 튄다</text>
+  </g>
+
+  <line x1="360" y1="268" x2="360" y2="299" stroke="#263343" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <g>
+    <rect x="120" y="303" width="480" height="64" rx="10" fill="#3a4a60"/>
+    <text x="360" y="330" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">③ 오른 가격이 '다음 구간' 숏 청산가를 터치</text>
+    <text x="360" y="352" font-size="12.5" fill="#dfe3e8" text-anchor="middle">청산맵 상단에 몰린 숏 물량이 다음 타깃이 된다</text>
+  </g>
+
+  <line x1="360" y1="367" x2="360" y2="398" stroke="#263343" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <g>
+    <rect x="120" y="402" width="480" height="64" rx="10" fill="#c0392b"/>
+    <text x="360" y="429" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">④ 추가 청산 발생 → ①로 반복 (캐스케이드)</text>
+    <text x="360" y="451" font-size="12.5" fill="#f5d5d0" text-anchor="middle">반복될수록 상승폭이 커지는 '숏스퀴즈'</text>
+  </g>
+
+  <!-- loop back arrow on the right -->
+  <path d="M600,434 C 700,434 700,137 600,137" fill="none" stroke="#c0392b" stroke-width="2.5" stroke-dasharray="6,4" marker-end="url(#arrowRed)"/>
+  <text x="712" y="290" font-size="13" font-weight="700" fill="#c0392b" text-anchor="middle" transform="rotate(90 712,290)">반복(캐스케이드)</text>
+</svg>

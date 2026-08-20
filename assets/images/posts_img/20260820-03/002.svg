@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" font-family="'Segoe UI', 'Noto Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="800" height="460" fill="#ffffff"/>
+  <text x="40" y="42" font-size="22" font-weight="700" fill="rgb(7,7,7)">비트코인 가격 흐름 — 8월 19일 숏스퀴즈 전후</text>
+  <text x="40" y="70" font-size="14" fill="#6b6b6b">8/19 09:00 약 6만4,700달러 → 8/20 06:50 6만9,818달러(장중 6만9,890달러)</text>
+
+  <!-- gridlines -->
+  <g stroke="#e6e6e6" stroke-width="1">
+    <line x1="60" y1="150" x2="760" y2="150"/>
+    <line x1="60" y1="230" x2="760" y2="230"/>
+    <line x1="60" y1="310" x2="760" y2="310"/>
+    <line x1="60" y1="390" x2="760" y2="390"/>
+  </g>
+  <g font-size="12" fill="#9a9a9a" text-anchor="end">
+    <text x="52" y="146">$70,000</text>
+    <text x="52" y="226">$68,000</text>
+    <text x="52" y="306">$66,000</text>
+    <text x="52" y="386">$64,000</text>
+  </g>
+
+  <!-- area -->
+  <path d="M60,362 L235,170 L410,222 L585,157.3 L760,154.4 L760,390 L60,390 Z" fill="#263343" fill-opacity="0.10"/>
+  <!-- line -->
+  <path d="M60,362 L235,170 L410,222 L585,157.3 L760,154.4" fill="none" stroke="#263343" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- points -->
+  <circle cx="60" cy="362" r="5" fill="#263343"/>
+  <circle cx="235" cy="170" r="5" fill="#c0392b"/>
+  <circle cx="410" cy="222" r="5" fill="#263343"/>
+  <circle cx="585" cy="157.3" r="5" fill="#263343"/>
+  <circle cx="760" cy="154.4" r="5" fill="#263343"/>
+
+  <!-- callout for the 1-hour spike (kept clear of the subtitle above) -->
+  <line x1="235" y1="170" x2="235" y2="126" stroke="#c0392b" stroke-width="1.5"/>
+  <text x="235" y="116" font-size="13" font-weight="700" fill="#c0392b" text-anchor="middle">1시간 숏청산 10억달러+</text>
+
+  <!-- x labels -->
+  <g font-size="12" fill="#6b6b6b" text-anchor="middle">
+    <text x="60" y="412">8/19 09:00</text>
+    <text x="235" y="412">8/19 10:00</text>
+    <text x="410" y="412">8/19 18:00</text>
+    <text x="585" y="412">8/20 06:50</text>
+    <text x="760" y="412">8/20 장중고점</text>
+  </g>
+
+  <text x="40" y="442" font-size="12" fill="#9a9a9a">가격은 코인글래스·주요 거래소 집계 기준 근사치이며, 실제 체결가는 거래소마다 다를 수 있음</text>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" font-family="'Segoe UI', 'Noto Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="800" height="440" fill="#ffffff"/>
+  <text x="40" y="52" font-size="22" font-weight="700" fill="rgb(7,7,7)">24시간 암호화폐 청산 비중 — 롱 vs 숏</text>
+  <text x="40" y="78" font-size="14" fill="#6b6b6b">2026-08-19 오후 5시(UTC) 스냅샷, 합계 약 19.1억 달러 · 코인글래스 집계</text>
+
+  <!-- Short bar -->
+  <text x="40" y="150" font-size="15" fill="rgb(7,7,7)" font-weight="600">숏(SHORT) 청산</text>
+  <rect x="40" y="165" width="620" height="46" rx="6" fill="#eef0f3"/>
+  <rect x="40" y="165" width="565" height="46" rx="6" fill="#263343"/>
+  <text x="620" y="196" font-size="18" font-weight="700" fill="#263343">17.4억 달러</text>
+  <text x="46" y="196" font-size="14" fill="#ffffff" font-weight="600">약 91.1%</text>
+
+  <!-- Long bar -->
+  <text x="40" y="255" font-size="15" fill="rgb(7,7,7)" font-weight="600">롱(LONG) 청산</text>
+  <rect x="40" y="270" width="620" height="46" rx="6" fill="#eef0f3"/>
+  <rect x="40" y="270" width="55" height="46" rx="6" fill="#b9c2cf"/>
+  <text x="108" y="301" font-size="18" font-weight="700" fill="#263343">1억7,341만 달러</text>
+
+  <text x="40" y="360" font-size="13" fill="#6b6b6b">숏 청산이 전체의 90% 이상을 차지 — 가격이 오를 때 강제 청산되는 쪽은 '숏'</text>
+  <text x="40" y="384" font-size="13" fill="#6b6b6b">약 12만3,240명의 트레이더가 청산됨 (코인글래스 기준)</text>
+  <text x="40" y="418" font-size="12" fill="#9a9a9a">출처: 코인글래스(CoinGlass), 크립토타임스 인용 · 수치는 집계 시점에 따라 변동될 수 있음</text>
+</svg>
