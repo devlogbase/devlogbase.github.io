@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" font-family="'Segoe UI', 'Noto Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="800" height="440" fill="#ffffff"/>
+  <text x="40" y="52" font-size="22" font-weight="700" fill="rgb(7,7,7)">모더나(MRNA) 주가 추이 — 정규장부터 애프터마켓까지</text>
+  <text x="40" y="78" font-size="14" fill="#6b6b6b">2026-08-18~19(현지시간) 기준 · StockAnalysis.com 데이터</text>
+
+  <!-- baseline -->
+  <line x1="40" y1="380" x2="760" y2="380" stroke="#d8dadf" stroke-width="1.5"/>
+
+  <!-- Bar 1: 8/18 close 62.96 -->
+  <rect x="110" y="286" width="150" height="94" rx="6" fill="#b9c2cf"/>
+  <text x="185" y="270" font-size="18" font-weight="700" fill="#263343" text-anchor="middle">$62.96</text>
+  <text x="185" y="404" font-size="13" fill="rgb(7,7,7)" text-anchor="middle" font-weight="600">8/18 정규장 종가</text>
+
+  <!-- Bar 2: 8/19 close 174.38 -->
+  <rect x="325" y="120" width="150" height="260" rx="6" fill="#263343"/>
+  <text x="400" y="104" font-size="18" font-weight="700" fill="#263343" text-anchor="middle">$174.38</text>
+  <text x="400" y="150" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="600">+176.97%</text>
+  <text x="400" y="404" font-size="13" fill="rgb(7,7,7)" text-anchor="middle" font-weight="600">8/19 정규장 종가</text>
+
+  <!-- Bar 3: after-hours 166.35 -->
+  <rect x="540" y="132" width="150" height="248" rx="6" fill="#8a97a8"/>
+  <text x="615" y="116" font-size="18" font-weight="700" fill="#263343" text-anchor="middle">$166.35</text>
+  <text x="615" y="404" font-size="13" fill="rgb(7,7,7)" text-anchor="middle" font-weight="600">8/19 애프터마켓</text>
+  <text x="615" y="422" font-size="12" fill="#6b6b6b" text-anchor="middle">(19:59 EDT, -4.60%)</text>
+
+  <text x="40" y="440" font-size="12" fill="#9a9a9a">출처: StockAnalysis.com · 애프터마켓 가격은 거래량이 적어 변동성이 크고 확정치가 아님</text>
+</svg>

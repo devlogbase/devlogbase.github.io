@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" font-family="'Segoe UI', 'Noto Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="800" height="380" fill="#ffffff"/>
+  <text x="40" y="52" font-size="22" font-weight="700" fill="rgb(7,7,7)">하루 시총 증가분 vs 흑색종 하나의 장기 매출 전망</text>
+  <text x="40" y="78" font-size="14" fill="#6b6b6b">모더나 시총 증가분(2026-08-19 하루)과 2035년 흑색종 적응증 매출 전망 비교</text>
+
+  <!-- Bar 1: market cap gain -->
+  <text x="40" y="150" font-size="15" font-weight="600" fill="rgb(7,7,7)">하루 시총 증가분 (8/19)</text>
+  <rect x="40" y="165" width="620" height="46" rx="6" fill="#eef0f3"/>
+  <rect x="40" y="165" width="620" height="46" rx="6" fill="#263343"/>
+  <text x="60" y="196" font-size="18" font-weight="700" fill="#ffffff">약 440억 달러 (원화 약 62조 원)</text>
+
+  <!-- Bar 2: 2035 melanoma sales -->
+  <text x="40" y="255" font-size="15" font-weight="600" fill="rgb(7,7,7)">2035년 흑색종 매출 전망 (바클레이즈)</text>
+  <rect x="40" y="270" width="620" height="46" rx="6" fill="#eef0f3"/>
+  <rect x="40" y="270" width="42" height="46" rx="6" fill="#b9c2cf"/>
+  <text x="94" y="301" font-size="16" font-weight="700" fill="#263343">약 30억 달러</text>
+
+  <text x="40" y="352" font-size="13" fill="#6b6b6b">하루 만에 늘어난 시총이 흑색종 적응증 하나의 10년 뒤 연매출 전망보다 14.7배 큽니다</text>
+  <text x="40" y="372" font-size="12" fill="#9a9a9a">출처: ts2.tech 보도(바클레이즈 리서치 인용, 2026-08-19) · 시장은 흑색종 외 폐암·방광암·신장암 등 진행 중인 mRNA 항암 플랫폼 전반을 함께 반영한 가격으로 해석됨</text>
+</svg>
