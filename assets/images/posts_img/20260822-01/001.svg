@@ -1,0 +1,32 @@
+<svg width="800" height="360" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" font-family="'Segoe UI', 'Noto Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="800" height="360" fill="#ffffff"/>
+  <text x="40" y="46" font-size="22" font-weight="700" fill="rgb(7,7,7)">삼성전자 분기 배당금, 3개 분기 연속 소폭 증가</text>
+  <text x="40" y="70" font-size="14" fill="#6b6b6b">보통주 1주당 배당금 기준 · 이사회 결의 자료 종합</text>
+
+  <!-- baseline -->
+  <line x1="90" y1="290" x2="740" y2="290" stroke="#d8dadf" stroke-width="1.5"/>
+  <text x="740" y="288" font-size="12" fill="#9a9a9a" text-anchor="end">※ Y축 355원부터 시작(변화 폭 강조 표시)</text>
+
+  <!-- connecting line -->
+  <polyline points="180,213 410,127 630,111" fill="none" stroke="#263343" stroke-width="3"/>
+
+  <!-- point 1 -->
+  <circle cx="180" cy="213" r="7" fill="#b9c2cf" stroke="#263343" stroke-width="2"/>
+  <text x="180" y="192" font-size="18" font-weight="700" fill="#263343" text-anchor="middle">361원</text>
+  <text x="180" y="315" font-size="13" fill="rgb(7,7,7)" text-anchor="middle" font-weight="600">2025년 4분기</text>
+  <text x="180" y="333" font-size="12" fill="#6b6b6b" text-anchor="middle">2026년 4월 지급</text>
+
+  <!-- point 2 -->
+  <circle cx="410" cy="127" r="7" fill="#8a97a8" stroke="#263343" stroke-width="2"/>
+  <text x="410" y="106" font-size="18" font-weight="700" fill="#263343" text-anchor="middle">372원</text>
+  <text x="410" y="315" font-size="13" fill="rgb(7,7,7)" text-anchor="middle" font-weight="600">2026년 1분기</text>
+  <text x="410" y="333" font-size="12" fill="#6b6b6b" text-anchor="middle">2026년 5월 29일 지급</text>
+
+  <!-- point 3 -->
+  <circle cx="630" cy="111" r="8" fill="#263343" stroke="#263343" stroke-width="2"/>
+  <text x="630" y="88" font-size="19" font-weight="700" fill="#263343" text-anchor="middle">374원</text>
+  <text x="630" y="315" font-size="13" fill="rgb(7,7,7)" text-anchor="middle" font-weight="600">2026년 2분기</text>
+  <text x="630" y="333" font-size="12" fill="#6b6b6b" text-anchor="middle">2026년 8월 28일 지급</text>
+
+  <text x="40" y="352" font-size="12" fill="#9a9a9a">출처: 삼성전자 이사회 결의(2026년 7월 30일) 및 언론 보도 종합 · 우선주도 동일 금액</text>
+</svg>

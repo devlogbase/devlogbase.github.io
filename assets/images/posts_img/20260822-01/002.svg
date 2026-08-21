@@ -1,0 +1,28 @@
+<svg width="800" height="300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" font-family="'Segoe UI', 'Noto Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="800" height="300" fill="#ffffff"/>
+  <text x="40" y="46" font-size="22" font-weight="700" fill="rgb(7,7,7)">배당소득세 15.4%, 어디에 붙는 세금인가</text>
+  <text x="40" y="70" font-size="14" fill="#6b6b6b">세전 배당금 100% 기준 구성비</text>
+
+  <!-- stacked bar -->
+  <g transform="translate(40,120)">
+    <!-- 실수령 84.6% -->
+    <rect x="0" y="0" width="608.4" height="70" fill="#263343" rx="4"/>
+    <text x="304" y="34" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">실수령액 84.6%</text>
+    <text x="304" y="56" font-size="12" fill="#c7cfda" text-anchor="middle">세후 지급액</text>
+
+    <!-- 소득세 14% -->
+    <rect x="608.4" y="0" width="100.8" height="70" fill="#8a97a8"/>
+    <text x="658.8" y="30" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">소득세</text>
+    <text x="658.8" y="48" font-size="13" fill="#ffffff" text-anchor="middle">14%</text>
+
+    <!-- 지방소득세 1.4% -->
+    <rect x="709.2" y="0" width="10.08" height="70" fill="#b9c2cf"/>
+  </g>
+  <text x="759.28" y="212" font-size="12" fill="#6b6b6b" text-anchor="end">지방소득세 1.4%</text>
+  <line x1="754.24" y1="190" x2="754.24" y2="200" stroke="#9a9a9a" stroke-width="1"/>
+
+  <text x="40" y="240" font-size="14" fill="rgb(7,7,7)">국내 상장주식 배당소득세는 소득세 14% + 지방소득세 1.4%(소득세의 10%) = <tspan font-weight="700">15.4%</tspan>가 원천징수됩니다.</text>
+  <text x="40" y="264" font-size="13" fill="#6b6b6b">별도 신청 없이 증권사가 자동으로 원천징수한 뒤 세후 금액만 계좌로 입금합니다.</text>
+
+  <text x="40" y="292" font-size="12" fill="#9a9a9a">※ 금융소득(이자+배당) 합산 연 2천만원 초과 시 종합과세 대상이 될 수 있음</text>
+</svg>
