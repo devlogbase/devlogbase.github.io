@@ -1,0 +1,41 @@
+<svg width="800" height="360" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" font-family="'Segoe UI', 'Noto Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="800" height="360" fill="#ffffff"/>
+  <text x="40" y="46" font-size="22" font-weight="700" fill="rgb(7,7,7)">미일 공조 개입 이후, 엔화 다시 158엔대로</text>
+  <text x="40" y="70" font-size="14" fill="#6b6b6b">달러/엔 환율 추이, 개입 전후 주요 시점</text>
+
+  <!-- baseline -->
+  <line x1="90" y1="290" x2="740" y2="290" stroke="#d8dadf" stroke-width="1.5"/>
+
+  <!-- intervention marker -->
+  <line x1="281" y1="90" x2="281" y2="290" stroke="#c94f4f" stroke-width="1.5" stroke-dasharray="4,4"/>
+  <text x="281" y="82" font-size="12" font-weight="600" fill="#c94f4f" text-anchor="middle">미일 공조 개입</text>
+
+  <!-- connecting line -->
+  <polyline points="130,105 281,193 483,166 710,170" fill="none" stroke="#263343" stroke-width="3"/>
+
+  <!-- point 1: 7/29 -->
+  <circle cx="130" cy="105" r="7" fill="#b9c2cf" stroke="#263343" stroke-width="2"/>
+  <text x="130" y="128" font-size="17" font-weight="700" fill="#263343" text-anchor="middle">163.9엔</text>
+  <text x="130" y="315" font-size="13" fill="rgb(7,7,7)" text-anchor="middle" font-weight="600">7월 29일</text>
+  <text x="130" y="333" font-size="12" fill="#6b6b6b" text-anchor="middle">엔저 정점</text>
+
+  <!-- point 2: 8/4 intervention low -->
+  <circle cx="281" cy="193" r="8" fill="#263343" stroke="#263343" stroke-width="2"/>
+  <text x="281" y="216" font-size="17" font-weight="700" fill="#263343" text-anchor="middle">157.3엔</text>
+  <text x="281" y="315" font-size="13" fill="rgb(7,7,7)" text-anchor="middle" font-weight="600">8월 4일</text>
+  <text x="281" y="333" font-size="12" fill="#6b6b6b" text-anchor="middle">개입 직후 저점</text>
+
+  <!-- point 3: 8/12 -->
+  <circle cx="483" cy="166" r="7" fill="#8a97a8" stroke="#263343" stroke-width="2"/>
+  <text x="483" y="150" font-size="17" font-weight="700" fill="#263343" text-anchor="middle">159.3엔</text>
+  <text x="483" y="315" font-size="13" fill="rgb(7,7,7)" text-anchor="middle" font-weight="600">8월 12일</text>
+  <text x="483" y="333" font-size="12" fill="#6b6b6b" text-anchor="middle">반등</text>
+
+  <!-- point 4: 8/21 current -->
+  <circle cx="710" cy="170" r="8" fill="#263343" stroke="#263343" stroke-width="2"/>
+  <text x="710" y="153" font-size="17" font-weight="700" fill="#263343" text-anchor="middle">158.98엔</text>
+  <text x="710" y="315" font-size="13" fill="rgb(7,7,7)" text-anchor="middle" font-weight="600">8월 21일</text>
+  <text x="710" y="333" font-size="12" fill="#6b6b6b" text-anchor="middle">현재</text>
+
+  <text x="40" y="352" font-size="12" fill="#9a9a9a">출처: 외환시장 보도 종합 · 미일 당국은 1998년 이후 처음으로 엔화 강세 유도 공동개입 단행(7월 30일)</text>
+</svg>

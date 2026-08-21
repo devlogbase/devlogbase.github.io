@@ -1,0 +1,42 @@
+<svg width="820" height="430" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 430" font-family="'Segoe UI', 'Noto Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="820" height="430" fill="#ffffff"/>
+  <text x="40" y="46" font-size="22" font-weight="700" fill="rgb(7,7,7)">엔화, 더 떨어질까 반등할까</text>
+  <text x="40" y="70" font-size="14" fill="#6b6b6b">원엔 환율에 영향을 주는 하락 압력과 반등 요인</text>
+
+  <!-- left column: 하락 압력 -->
+  <rect x="40" y="96" width="350" height="40" rx="6" fill="#c94f4f"/>
+  <text x="215" y="122" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">하락 압력 (엔화 약세 지속)</text>
+
+  <circle cx="56" cy="162" r="4" fill="#c94f4f"/>
+  <text x="70" y="167" font-size="14" font-weight="600" fill="rgb(7,7,7)">미일 정책금리 격차</text>
+  <text x="70" y="187" font-size="12" fill="#6b6b6b">일본 기준금리가 미국보다 여전히 크게 낮음</text>
+
+  <circle cx="56" cy="222" r="4" fill="#c94f4f"/>
+  <text x="70" y="227" font-size="14" font-weight="600" fill="rgb(7,7,7)">일본 재정 부담</text>
+  <text x="70" y="247" font-size="12" fill="#6b6b6b">막대한 국가부채가 엔화 신뢰를 구조적으로 흔듦</text>
+
+  <circle cx="56" cy="282" r="4" fill="#c94f4f"/>
+  <text x="70" y="287" font-size="14" font-weight="600" fill="rgb(7,7,7)">개입 약발 소진</text>
+  <text x="70" y="307" font-size="12" fill="#6b6b6b">블룸버그 "시장 개입만으론 장기 흐름 못 바꿔"</text>
+
+  <!-- right column: 반등 요인 -->
+  <rect x="430" y="96" width="350" height="40" rx="6" fill="#263343"/>
+  <text x="605" y="122" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">반등 요인 (엔화 강세 전환)</text>
+
+  <circle cx="446" cy="162" r="4" fill="#263343"/>
+  <text x="460" y="167" font-size="14" font-weight="600" fill="rgb(7,7,7)">BOJ 추가 금리 인상</text>
+  <text x="460" y="187" font-size="12" fill="#6b6b6b">엔 캐리 트레이드 청산을 유발할 수 있음</text>
+
+  <circle cx="446" cy="222" r="4" fill="#263343"/>
+  <text x="460" y="227" font-size="14" font-weight="600" fill="rgb(7,7,7)">추가 공조 개입 가능성</text>
+  <text x="460" y="247" font-size="12" fill="#6b6b6b">160엔에 근접할수록 개입 가능성 높다는 평가(OCBC)</text>
+
+  <circle cx="446" cy="282" r="4" fill="#263343"/>
+  <text x="460" y="287" font-size="14" font-weight="600" fill="rgb(7,7,7)">연준 조기 인하 기대</text>
+  <text x="460" y="307" font-size="12" fill="#6b6b6b">달러 약세 전환 시 엔화도 상대적으로 강세</text>
+
+  <text x="40" y="345" font-size="13" fill="rgb(7,7,7)">미일 당국은 "필요하면 계속 엔화를 방어하겠다"는 입장을 반복해서 밝혀왔습니다.</text>
+  <text x="40" y="368" font-size="12" fill="#6b6b6b">다만 구조적 요인(금리차·재정 부담)이 남아 있어, 개입만으로 추세가 바뀌긴 어렵다는 게 시장 평가입니다.</text>
+
+  <text x="40" y="405" font-size="12" fill="#9a9a9a">출처: 블룸버그·외신 보도 종합 · 2026년 8월 21일 기준, 실제 방향은 향후 지표·정책 결정에 따라 달라질 수 있음</text>
+</svg>

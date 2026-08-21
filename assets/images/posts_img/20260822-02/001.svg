@@ -1,0 +1,33 @@
+<svg width="800" height="360" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" font-family="'Segoe UI', 'Noto Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="800" height="360" fill="#ffffff"/>
+  <text x="40" y="46" font-size="22" font-weight="700" fill="rgb(7,7,7)">원엔 환율, 2년 2개월 만에 872원대로</text>
+  <text x="40" y="70" font-size="14" fill="#6b6b6b">100엔당 원화 재정환율, 주요 시점 비교</text>
+
+  <!-- baseline -->
+  <line x1="90" y1="290" x2="740" y2="290" stroke="#d8dadf" stroke-width="1.5"/>
+
+  <!-- connecting line -->
+  <polyline points="150,263 430,96 690,246" fill="none" stroke="#263343" stroke-width="3"/>
+
+  <!-- point 1: 2024-07-12 low -->
+  <circle cx="150" cy="263" r="7" fill="#b9c2cf" stroke="#263343" stroke-width="2"/>
+  <text x="150" y="242" font-size="18" font-weight="700" fill="#263343" text-anchor="middle">863.61원</text>
+  <text x="150" y="315" font-size="13" fill="rgb(7,7,7)" text-anchor="middle" font-weight="600">2024년 7월 12일</text>
+  <text x="150" y="333" font-size="12" fill="#6b6b6b" text-anchor="middle">당시 최저치</text>
+
+  <!-- point 2: 2025-08 peak -->
+  <circle cx="430" cy="96" r="7" fill="#8a97a8" stroke="#263343" stroke-width="2"/>
+  <text x="430" y="75" font-size="18" font-weight="700" fill="#263343" text-anchor="middle">947원</text>
+  <text x="430" y="315" font-size="13" fill="rgb(7,7,7)" text-anchor="middle" font-weight="600">2025년 8월</text>
+  <text x="430" y="333" font-size="12" fill="#6b6b6b" text-anchor="middle">1년 새 최고 수준</text>
+
+  <!-- point 3: 2026-08-21 current -->
+  <circle cx="690" cy="246" r="8" fill="#263343" stroke="#263343" stroke-width="2"/>
+  <text x="690" y="223" font-size="19" font-weight="700" fill="#263343" text-anchor="middle">872.18원</text>
+  <text x="690" y="315" font-size="13" fill="rgb(7,7,7)" text-anchor="middle" font-weight="600">2026년 8월 21일</text>
+  <text x="690" y="333" font-size="12" fill="#6b6b6b" text-anchor="middle">2년 2개월 만에 최저</text>
+
+  <text x="690" y="267" font-size="11" fill="#9a9a9a" text-anchor="middle">(장중 868.22원까지 하락)</text>
+
+  <text x="40" y="352" font-size="12" fill="#9a9a9a">출처: 외환시장 재정환율 보도 종합(2026년 8월 21일 오후 3시 30분 기준) · 주요 시점 비교이며 연속 일별 데이터는 아님</text>
+</svg>
