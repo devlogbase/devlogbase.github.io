@@ -1,0 +1,37 @@
+<svg width="800" height="420" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" font-family="'Segoe UI', 'Noto Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="800" height="420" fill="#ffffff"/>
+  <text x="40" y="46" font-size="22" font-weight="700" fill="rgb(7,7,7)">강남·서초, 2주 연속 하락폭이 커졌습니다</text>
+  <text x="40" y="72" font-size="14" fill="#6b6b6b">한국부동산원 주간 아파트가격동향, 전주 대비 변동률</text>
+
+  <!-- baseline -->
+  <line x1="430" y1="100" x2="430" y2="330" stroke="#d8dbe0" stroke-width="1.5"/>
+  <text x="430" y="350" font-size="12" fill="#9a9a9a" text-anchor="middle">0%</text>
+
+  <!-- 강남 8/10 -->
+  <text x="40" y="130" font-size="14" font-weight="600" fill="rgb(7,7,7)">강남구 (8/10 기준)</text>
+  <rect x="410" y="112" width="20" height="26" rx="4" fill="#c94f4f"/>
+  <text x="398" y="130" font-size="13" font-weight="700" fill="#c94f4f" text-anchor="end">-0.02%</text>
+
+  <!-- 강남 8/17 -->
+  <text x="40" y="180" font-size="14" font-weight="600" fill="rgb(7,7,7)">강남구 (8/17 기준)</text>
+  <rect x="380" y="162" width="50" height="26" rx="4" fill="#c94f4f"/>
+  <text x="368" y="180" font-size="13" font-weight="700" fill="#c94f4f" text-anchor="end">-0.05%</text>
+
+  <!-- 서초 8/10 -->
+  <text x="40" y="230" font-size="14" font-weight="600" fill="rgb(7,7,7)">서초구 (8/10 기준)</text>
+  <rect x="390" y="212" width="40" height="26" rx="4" fill="#c94f4f"/>
+  <text x="378" y="230" font-size="13" font-weight="700" fill="#c94f4f" text-anchor="end">-0.04%</text>
+
+  <!-- 서초 8/17 -->
+  <text x="40" y="280" font-size="14" font-weight="600" fill="rgb(7,7,7)">서초구 (8/17 기준)</text>
+  <rect x="340" y="262" width="90" height="26" rx="4" fill="#c94f4f"/>
+  <text x="328" y="280" font-size="13" font-weight="700" fill="#c94f4f" text-anchor="end">-0.09%</text>
+
+  <!-- 서울 전체 8/17 -->
+  <text x="40" y="330" font-size="14" font-weight="600" fill="rgb(7,7,7)">서울 전체 (8/17 기준)</text>
+  <rect x="430" y="312" width="220" height="26" rx="4" fill="#263343"/>
+  <text x="662" y="330" font-size="13" font-weight="700" fill="#263343">+0.22%</text>
+
+  <text x="40" y="380" font-size="13" fill="#6b6b6b">서초구는 16주, 강남구는 14주 만에 하락 전환했고, 다음 주에는 하락폭이 오히려 커졌습니다</text>
+  <text x="40" y="400" font-size="12" fill="#9a9a9a">출처: 한국부동산원 주간아파트가격동향(2026년 8월 10일·17일 기준, 8월 20일 발표)</text>
+</svg>
