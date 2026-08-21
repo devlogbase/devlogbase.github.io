@@ -31,3 +31,9 @@ Thumbs.db
 .sass-cache
 _asset_bundler_cache
 _site
+
+# Claude Code (local-only, not pushed)
+.claude/
+.agents/
+CLAUDE.md
+skills-lock.json
