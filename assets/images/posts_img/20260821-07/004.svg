@@ -1,0 +1,52 @@
+<svg width="820" height="420" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 420" font-family="'Segoe UI', 'Noto Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="820" height="420" fill="#ffffff"/>
+  <text x="40" y="46" font-size="22" font-weight="700" fill="rgb(7,7,7)">5급 공무원 법정 연봉 범위는 4,210만~8,652만원</text>
+  <text x="40" y="72" font-size="14" fill="#6b6b6b">성과급적 연봉제 적용대상 공무원 연봉한계액표, 기본연봉+성과연봉 기준(수당 별도)</text>
+
+  <!-- gridlines -->
+  <line x1="180" y1="100" x2="180" y2="365" stroke="#d8dbe0" stroke-width="1.5"/>
+  <line x1="306" y1="100" x2="306" y2="365" stroke="#eef0f3" stroke-width="1"/>
+  <line x1="431" y1="100" x2="431" y2="365" stroke="#eef0f3" stroke-width="1"/>
+  <line x1="557" y1="100" x2="557" y2="365" stroke="#eef0f3" stroke-width="1"/>
+  <text x="180" y="382" font-size="11" fill="#9a9a9a" text-anchor="middle">0</text>
+  <text x="306" y="382" font-size="11" fill="#9a9a9a" text-anchor="middle">4,000만</text>
+  <text x="431" y="382" font-size="11" fill="#9a9a9a" text-anchor="middle">8,000만</text>
+  <text x="557" y="382" font-size="11" fill="#9a9a9a" text-anchor="middle">1억 2,000만</text>
+
+  <!-- 1급 -->
+  <text x="40" y="135" font-size="15" font-weight="600" fill="rgb(7,7,7)">1급</text>
+  <line x1="460" y1="130" x2="600" y2="130" stroke="#c7cfd8" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="460" cy="130" r="6" fill="#9fb0c3"/>
+  <circle cx="600" cy="130" r="6" fill="#9fb0c3"/>
+  <text x="610" y="134" font-size="12" fill="#6b6b6b">8,899만~1억 3,350만원</text>
+
+  <!-- 2급 -->
+  <text x="40" y="185" font-size="15" font-weight="600" fill="rgb(7,7,7)">2급</text>
+  <line x1="438" y1="180" x2="568" y2="180" stroke="#c7cfd8" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="438" cy="180" r="6" fill="#9fb0c3"/>
+  <circle cx="568" cy="180" r="6" fill="#9fb0c3"/>
+  <text x="578" y="184" font-size="12" fill="#6b6b6b">8,222만~1억 2,339만원</text>
+
+  <!-- 3급 -->
+  <text x="40" y="235" font-size="15" font-weight="600" fill="rgb(7,7,7)">3급</text>
+  <line x1="422" y1="230" x2="541" y2="230" stroke="#c7cfd8" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="422" cy="230" r="6" fill="#9fb0c3"/>
+  <circle cx="541" cy="230" r="6" fill="#9fb0c3"/>
+  <text x="551" y="234" font-size="12" fill="#6b6b6b">7,705만~1억 1,471만원</text>
+
+  <!-- 4급 -->
+  <text x="40" y="285" font-size="15" font-weight="600" fill="rgb(7,7,7)">4급</text>
+  <line x1="372" y1="280" x2="510" y2="280" stroke="#c7cfd8" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="372" cy="280" r="6" fill="#9fb0c3"/>
+  <circle cx="510" cy="280" r="6" fill="#9fb0c3"/>
+  <text x="520" y="284" font-size="12" fill="#6b6b6b">6,099만~1억 493만원</text>
+
+  <!-- 5급 -->
+  <text x="40" y="335" font-size="15" font-weight="700" fill="#c94f4f">5급</text>
+  <line x1="312" y1="330" x2="452" y2="330" stroke="#c94f4f" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="312" cy="330" r="7" fill="#c94f4f"/>
+  <circle cx="452" cy="330" r="7" fill="#c94f4f"/>
+  <text x="462" y="334" font-size="13" font-weight="700" fill="#c94f4f">4,210만~8,652만원</text>
+
+  <text x="40" y="405" font-size="12" fill="#9a9a9a">출처: 공무원보수규정 별표33(2026. 1. 2. 개정), 성과급적 연봉제 적용대상 공무원의 연봉한계액표</text>
+</svg>

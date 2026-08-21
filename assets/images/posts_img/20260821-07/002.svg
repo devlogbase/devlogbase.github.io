@@ -1,0 +1,26 @@
+<svg width="820" height="380" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 380" font-family="'Segoe UI', 'Noto Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="820" height="380" fill="#ffffff"/>
+  <text x="40" y="46" font-size="22" font-weight="700" fill="rgb(7,7,7)">5급 1호봉 봉급은 9급보다 월 76만원 더 많습니다</text>
+  <text x="40" y="72" font-size="14" fill="#6b6b6b">2026년 공무원 봉급표, 신규 임용 1호봉 기준 월 봉급액</text>
+
+  <!-- baseline -->
+  <line x1="180" y1="100" x2="180" y2="320" stroke="#d8dbe0" stroke-width="1.5"/>
+
+  <!-- 9급 -->
+  <text x="40" y="155" font-size="15" font-weight="600" fill="rgb(7,7,7)">9급 1호봉</text>
+  <rect x="180" y="130" width="353" height="30" rx="4" fill="#9fb0c3"/>
+  <text x="543" y="151" font-size="14" font-weight="700" fill="#263343">2,133,000원</text>
+
+  <!-- 7급 -->
+  <text x="40" y="215" font-size="15" font-weight="600" fill="rgb(7,7,7)">7급 1호봉</text>
+  <rect x="180" y="190" width="384" height="30" rx="4" fill="#7c93ab"/>
+  <text x="574" y="211" font-size="14" font-weight="700" fill="#263343">2,317,100원</text>
+
+  <!-- 5급 -->
+  <text x="40" y="275" font-size="15" font-weight="600" fill="rgb(7,7,7)">5급 1호봉</text>
+  <rect x="180" y="250" width="480" height="30" rx="4" fill="#c94f4f"/>
+  <text x="670" y="271" font-size="14" font-weight="700" fill="#c94f4f">2,896,400원</text>
+
+  <text x="40" y="335" font-size="13" fill="#6b6b6b">여기에 정액급식비 16만원, 직급보조비(5급 25만원) 등 각종 수당이 별도로 더해집니다</text>
+  <text x="40" y="358" font-size="12" fill="#9a9a9a">출처: 인사혁신처 2026년 공무원 봉급표(공무원보수규정 별표 3)</text>
+</svg>
