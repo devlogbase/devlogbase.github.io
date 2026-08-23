@@ -1,0 +1,37 @@
+<svg width="800" height="340" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" font-family="'Segoe UI', 'Noto Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="800" height="340" fill="#ffffff"/>
+
+  <text x="40" y="42" font-size="20" font-weight="700" fill="rgb(7,7,7)">청약통장 전환, 9월 30일이 마지막입니다</text>
+  <text x="40" y="66" font-size="13" fill="#6b6b6b">2026년 8월 23일 기준, 청약저축·청약예금·청약부금 전환 마감까지 약 5주 남았습니다</text>
+
+  <!-- timeline base line -->
+  <line x1="90" y1="200" x2="740" y2="200" stroke="#c9ced6" stroke-width="2"/>
+
+  <!-- Node 1: 2024 도입 -->
+  <circle cx="130" cy="200" r="7" fill="#c9ced6"/>
+  <text x="130" y="180" font-size="12.5" font-weight="700" fill="#3a4a60" text-anchor="middle">2024년</text>
+  <text x="130" y="228" font-size="11.5" fill="#6b6b6b" text-anchor="middle">주택청약종합저축</text>
+  <text x="130" y="244" font-size="11.5" fill="#6b6b6b" text-anchor="middle">전환 제도 도입</text>
+
+  <!-- Node 2: 2025.9.30 원래 마감 (연장됨) -->
+  <circle cx="400" cy="200" r="7" fill="#c9ced6"/>
+  <text x="400" y="180" font-size="12.5" font-weight="700" fill="#9aa1ab" text-anchor="middle">2025.9.30</text>
+  <text x="400" y="228" font-size="11.5" fill="#9aa1ab" text-anchor="middle">원래 마감 예정</text>
+  <text x="400" y="244" font-size="11.5" fill="#9aa1ab" text-anchor="middle">→ 1년 연장</text>
+
+  <!-- Node 3: 2026.9.30 지금 마감 -->
+  <circle cx="670" cy="200" r="9" fill="#1f6feb"/>
+  <text x="670" y="180" font-size="14" font-weight="700" fill="#1f6feb" text-anchor="middle">2026.9.30</text>
+  <text x="670" y="228" font-size="12" font-weight="700" fill="#1f6feb" text-anchor="middle">지금 마감</text>
+  <text x="670" y="244" font-size="11.5" fill="#6b6b6b" text-anchor="middle">더 이상 연장 계획 없음</text>
+
+  <!-- today marker -->
+  <line x1="612" y1="150" x2="612" y2="200" stroke="#c9ced6" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="612" y="138" font-size="11.5" fill="#6b6b6b" text-anchor="middle">오늘 2026.8.23</text>
+
+  <!-- D-38 badge -->
+  <rect x="580" y="270" width="120" height="40" rx="20" fill="#eaf1ff"/>
+  <text x="640" y="296" font-size="16" font-weight="700" fill="#1f6feb" text-anchor="middle">D-38</text>
+
+  <text x="40" y="320" font-size="11.5" fill="#9aa1ab">전환 마감일 이후에는 청약저축·청약예금·청약부금을 주택청약종합저축으로 바꿀 수 없습니다</text>
+</svg>
