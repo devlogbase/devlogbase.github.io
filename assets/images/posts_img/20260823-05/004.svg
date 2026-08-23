@@ -1,0 +1,57 @@
+<svg width="800" height="460" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" font-family="'Segoe UI', 'Noto Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="800" height="460" fill="#ffffff"/>
+
+  <text x="40" y="42" font-size="20" font-weight="700" fill="rgb(7,7,7)">로이스 나마초콜릿, 술 유무와 단맛으로 나눠보면</text>
+  <text x="40" y="66" font-size="13" fill="#6b6b6b">정번 10종 기준, 왼쪽일수록 진하고 쌉쌀하고 오른쪽일수록 달콤합니다</text>
+
+  <!-- Upper band: 술 사용 -->
+  <rect x="40" y="90" width="720" height="150" rx="10" fill="#eaf1ff" stroke="#c7dbfb" stroke-width="1"/>
+  <text x="60" y="112" font-size="13" font-weight="700" fill="#1f6feb">술(양주) 사용</text>
+
+  <!-- Lower band: 리큐르 프리 -->
+  <rect x="40" y="256" width="720" height="150" rx="10" fill="#f5f6f8" stroke="#e3e5e9" stroke-width="1"/>
+  <text x="60" y="278" font-size="13" font-weight="700" fill="#3a4a60">리큐르 프리 (술 미사용)</text>
+
+  <!-- axis line & labels -->
+  <line x1="40" y1="422" x2="760" y2="422" stroke="#c9ccd1" stroke-width="1"/>
+  <text x="60" y="440" font-size="12" fill="#6b6b6b">쌉쌀함 ←</text>
+  <text x="700" y="440" font-size="12" fill="#6b6b6b" text-anchor="end">→ 달콤함</text>
+
+  <!-- Upper band points (contains alcohol) -->
+  <circle cx="130" cy="175" r="5" fill="#1f6feb"/>
+  <text x="130" y="152" font-size="12" fill="#1a1a1a" text-anchor="middle">비터</text>
+  <text x="130" y="200" font-size="10.5" fill="#5b7ba8" text-anchor="middle">코냑, 가장 쌉쌀</text>
+
+  <circle cx="270" cy="165" r="5" fill="#1f6feb"/>
+  <text x="270" y="142" font-size="12" fill="#1a1a1a" text-anchor="middle">말차</text>
+  <text x="270" y="190" font-size="10.5" fill="#5b7ba8" text-anchor="middle">쌉쌀함 강조</text>
+
+  <circle cx="400" cy="200" r="6" fill="#1f6feb"/>
+  <text x="400" y="220" font-size="12" font-weight="700" fill="#1a1a1a" text-anchor="middle">오레 (인기 1위)</text>
+  <text x="400" y="150" font-size="10.5" fill="#5b7ba8" text-anchor="middle">정통 밀크 초콜릿</text>
+
+  <circle cx="530" cy="165" r="5" fill="#1f6feb"/>
+  <text x="530" y="142" font-size="12" fill="#1a1a1a" text-anchor="middle">샴페인 피에르 미뇽</text>
+
+  <circle cx="650" cy="165" r="5" fill="#1f6feb"/>
+  <text x="650" y="142" font-size="12" fill="#1a1a1a" text-anchor="middle">화이트</text>
+  <text x="650" y="190" font-size="10.5" fill="#5b7ba8" text-anchor="middle">가장 달콤</text>
+
+  <!-- Lower band points (liquor free) -->
+  <circle cx="200" cy="345" r="5" fill="#3a4a60"/>
+  <text x="200" y="322" font-size="12" fill="#1a1a1a" text-anchor="middle">가나 비터</text>
+  <text x="200" y="370" font-size="10.5" fill="#7a8699" text-anchor="middle">카카오 함량 높음</text>
+
+  <circle cx="360" cy="335" r="6" fill="#3a4a60"/>
+  <text x="360" y="315" font-size="12" font-weight="700" fill="#1a1a1a" text-anchor="middle">마일드 카카오</text>
+  <text x="360" y="360" font-size="10.5" fill="#7a8699" text-anchor="middle">균형 잡힌 단맛</text>
+
+  <circle cx="500" cy="345" r="5" fill="#3a4a60"/>
+  <text x="500" y="322" font-size="12" fill="#1a1a1a" text-anchor="middle">마일드 밀크</text>
+
+  <circle cx="640" cy="345" r="5" fill="#3a4a60"/>
+  <text x="640" y="322" font-size="12" fill="#1a1a1a" text-anchor="middle">마일드 화이트</text>
+  <text x="640" y="370" font-size="10.5" fill="#7a8699" text-anchor="middle">가장 달콤, 술 없음</text>
+
+  <text x="40" y="452" font-size="11.5" fill="#9aa1ab">2026년 8월 기준 로이스(ROYCE') 공식 사이트 정번 라인업 소개 문구를 토대로 상대적 위치를 정리한 그래픽입니다</text>
+</svg>
