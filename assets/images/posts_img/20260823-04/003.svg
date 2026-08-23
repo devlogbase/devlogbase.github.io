@@ -1,0 +1,42 @@
+<svg width="800" height="360" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" font-family="'Segoe UI', 'Noto Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="800" height="360" fill="#ffffff"/>
+
+  <text x="40" y="42" font-size="20" font-weight="700" fill="rgb(7,7,7)">'라쿠카라차'가 걸어온 500년</text>
+  <text x="40" y="66" font-size="13" fill="#6b6b6b">스페인의 옛 민요가 멕시코를 거쳐 한국 동요가 되기까지</text>
+
+  <!-- timeline base line -->
+  <line x1="70" y1="210" x2="760" y2="210" stroke="#c9ced6" stroke-width="2"/>
+
+  <!-- Node 1: 15세기 말 스페인 -->
+  <circle cx="110" cy="210" r="7" fill="#c9ced6"/>
+  <text x="110" y="188" font-size="12.5" font-weight="700" fill="#3a4a60" text-anchor="middle">15세기 말</text>
+  <text x="110" y="238" font-size="11.5" fill="#6b6b6b" text-anchor="middle">스페인에서</text>
+  <text x="110" y="254" font-size="11.5" fill="#6b6b6b" text-anchor="middle">자연발생한 민요</text>
+
+  <!-- Node 2: 스페인 식민지 확장 -->
+  <circle cx="270" cy="210" r="7" fill="#c9ced6"/>
+  <text x="270" y="188" font-size="12.5" font-weight="700" fill="#3a4a60" text-anchor="middle">16~19세기</text>
+  <text x="270" y="238" font-size="11.5" fill="#6b6b6b" text-anchor="middle">스페인의 아메리카</text>
+  <text x="270" y="254" font-size="11.5" fill="#6b6b6b" text-anchor="middle">진출과 함께 멕시코 전래</text>
+
+  <!-- Node 3: 멕시코 혁명 -->
+  <circle cx="430" cy="210" r="9" fill="#1f6feb"/>
+  <text x="430" y="184" font-size="14" font-weight="700" fill="#1f6feb" text-anchor="middle">1910~1920</text>
+  <text x="430" y="238" font-size="12" font-weight="700" fill="#1f6feb" text-anchor="middle">멕시코 혁명기</text>
+  <text x="430" y="254" font-size="11.5" fill="#6b6b6b" text-anchor="middle">정치 풍자 가사 폭발적 증가</text>
+
+  <!-- Node 4: 미국 대중화 -->
+  <circle cx="590" cy="210" r="7" fill="#c9ced6"/>
+  <text x="590" y="188" font-size="12.5" font-weight="700" fill="#3a4a60" text-anchor="middle">1934년</text>
+  <text x="590" y="238" font-size="11.5" fill="#6b6b6b" text-anchor="middle">미국에서 룸바 폭스트롯</text>
+  <text x="590" y="254" font-size="11.5" fill="#6b6b6b" text-anchor="middle">편곡, 디즈니 애니메이션 삽입</text>
+
+  <!-- Node 5: 한국 동요 -->
+  <circle cx="730" cy="210" r="9" fill="#1f6feb"/>
+  <text x="730" y="184" font-size="14" font-weight="700" fill="#1f6feb" text-anchor="middle">오늘날</text>
+  <text x="730" y="238" font-size="12" font-weight="700" fill="#1f6feb" text-anchor="middle">한국 동요로</text>
+  <text x="730" y="254" font-size="11.5" fill="#6b6b6b" text-anchor="middle">순화되어 정착</text>
+
+  <text x="40" y="300" font-size="11.5" fill="#9aa1ab">여러 나라를 거치며 가사가 계속 바뀌었지만, '라 쿠카라차(바퀴벌레)'라는 제목만은 그대로 남았습니다</text>
+  <text x="40" y="320" font-size="11.5" fill="#9aa1ab">기원 시점과 경로는 여러 설이 엇갈리며, 위 연대는 통설을 기준으로 정리한 것입니다</text>
+</svg>
