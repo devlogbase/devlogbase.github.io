@@ -1,0 +1,35 @@
+<svg width="800" height="420" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" font-family="'Segoe UI', 'Noto Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="800" height="420" fill="#ffffff"/>
+
+  <text x="40" y="42" font-size="21" font-weight="700" fill="rgb(7,7,7)">실업급여의 "180일"은 사실 두 가지입니다</text>
+  <text x="40" y="66" font-size="13.5" fill="#6b6b6b">검색 결과에 섞여 나오는 두 조건을 하나로 착각하면 계산이 완전히 틀어집니다</text>
+
+  <!-- Left box -->
+  <rect x="30" y="100" width="330" height="260" rx="10" fill="#263343"/>
+  <text x="195" y="140" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">180일 ①</text>
+  <text x="195" y="165" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">수급자격요건의 180일</text>
+  <text x="195" y="196" font-size="12.5" fill="#dfe3e8" text-anchor="middle">이직 전 18개월 동안</text>
+  <text x="195" y="216" font-size="12.5" fill="#dfe3e8" text-anchor="middle">피보험단위기간을 합산해서</text>
+  <text x="195" y="236" font-size="12.5" fill="#dfe3e8" text-anchor="middle">180일 이상이어야 함</text>
+  <line x1="70" y1="256" x2="320" y2="256" stroke="#3a4a60" stroke-width="1"/>
+  <text x="195" y="286" font-size="12.5" font-weight="700" fill="#8fd3ff" text-anchor="middle">→ 실업급여를 받을</text>
+  <text x="195" y="306" font-size="12.5" font-weight="700" fill="#8fd3ff" text-anchor="middle">"자격이 생기는" 조건</text>
+  <text x="195" y="336" font-size="11.5" fill="#a9b3c1" text-anchor="middle">누구에게나 같은 기준</text>
+
+  <!-- Right box -->
+  <rect x="440" y="100" width="330" height="260" rx="10" fill="#1f6feb"/>
+  <text x="605" y="140" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">180일 ②</text>
+  <text x="605" y="165" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">소정급여일수의 180일</text>
+  <text x="605" y="196" font-size="12.5" fill="#dbe8ff" text-anchor="middle">50세 미만이면서 가입기간</text>
+  <text x="605" y="216" font-size="12.5" fill="#dbe8ff" text-anchor="middle">3~5년인 경우, 우연히</text>
+  <text x="605" y="236" font-size="12.5" fill="#dbe8ff" text-anchor="middle">지급일수가 180일</text>
+  <line x1="480" y1="256" x2="730" y2="256" stroke="#5590e8" stroke-width="1"/>
+  <text x="605" y="286" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">→ 자격을 얻은 뒤</text>
+  <text x="605" y="306" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">"실제로 받는 기간"</text>
+  <text x="605" y="336" font-size="11.5" fill="#dbe8ff" text-anchor="middle">나이·가입기간마다 다름(120~270일)</text>
+
+  <!-- Center divider -->
+  <circle cx="400" cy="230" r="34" fill="#ffffff" stroke="#c0392b" stroke-width="3"/>
+  <text x="400" y="240" font-size="26" font-weight="700" fill="#c0392b" text-anchor="middle">≠</text>
+  <text x="400" y="390" font-size="13" font-weight="700" fill="#c0392b" text-anchor="middle">서로 다른 조건입니다</text>
+</svg>
