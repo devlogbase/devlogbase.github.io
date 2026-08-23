@@ -34,17 +34,17 @@
 
   <!-- Request arrows (top) -->
   <line x1="230" y1="178" x2="304" y2="178" stroke="#263343" stroke-width="3" marker-end="url(#arrowReq)"/>
-  <text x="267" y="164" font-size="11.5" fill="#263343" text-anchor="middle">① 요청</text>
+  <text x="267" y="118" font-size="11.5" fill="#263343" text-anchor="middle">① 요청</text>
 
   <line x1="530" y1="178" x2="584" y2="178" stroke="#263343" stroke-width="3" marker-end="url(#arrowReq)"/>
-  <text x="557" y="164" font-size="11.5" fill="#263343" text-anchor="middle">② 압축 후 전달</text>
+  <text x="557" y="118" font-size="11.5" fill="#263343" text-anchor="middle">② 압축 후 전달</text>
 
   <!-- Response arrows (bottom) -->
   <line x1="584" y1="232" x2="530" y2="232" stroke="#1f6feb" stroke-width="3" marker-end="url(#arrowRes)"/>
-  <text x="557" y="250" font-size="11.5" fill="#1f6feb" text-anchor="middle">③ 응답</text>
+  <text x="557" y="300" font-size="11.5" fill="#1f6feb" text-anchor="middle">③ 응답</text>
 
   <line x1="304" y1="232" x2="230" y2="232" stroke="#1f6feb" stroke-width="3" marker-end="url(#arrowRes)"/>
-  <text x="267" y="250" font-size="11.5" fill="#1f6feb" text-anchor="middle">④ 응답 전달</text>
+  <text x="267" y="300" font-size="11.5" fill="#1f6feb" text-anchor="middle">④ 응답 전달</text>
 
   <!-- Footnote -->
   <rect x="30" y="330" width="760" height="90" rx="8" fill="#f4f6f9" stroke="#e1e5eb"/>
