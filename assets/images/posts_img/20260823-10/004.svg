@@ -1,0 +1,28 @@
+<svg width="800" height="380" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" font-family="'Segoe UI', 'Noto Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="800" height="380" fill="#ffffff"/>
+  <text x="40" y="46" font-size="22" font-weight="700" fill="rgb(7,7,7)">한 주 173만원, 그런데 ADR은 22만원대</text>
+  <text x="40" y="70" font-size="14" fill="#6b6b6b">SK하이닉스 국내 본주 vs 52주 최고가 vs 나스닥 ADR 환산가</text>
+
+  <!-- baseline -->
+  <line x1="90" y1="320" x2="740" y2="320" stroke="#d8dadf" stroke-width="1.5"/>
+
+  <!-- bar 1: current price 173 -->
+  <rect x="150" y="192" width="130" height="128" fill="#8a97a8"/>
+  <text x="215" y="176" font-size="18" font-weight="700" fill="#263343" text-anchor="middle">173만원</text>
+  <text x="215" y="345" font-size="13" fill="rgb(7,7,7)" text-anchor="middle" font-weight="600">현재가(본주)</text>
+  <text x="215" y="363" font-size="12" fill="#6b6b6b" text-anchor="middle">8월 22일 종가 기준</text>
+
+  <!-- bar 2: 52w high 298 -->
+  <rect x="335" y="100" width="130" height="220" fill="#263343"/>
+  <text x="400" y="84" font-size="18" font-weight="700" fill="#263343" text-anchor="middle">298만원대</text>
+  <text x="400" y="345" font-size="13" fill="rgb(7,7,7)" text-anchor="middle" font-weight="600">52주 최고가</text>
+  <text x="400" y="363" font-size="12" fill="#6b6b6b" text-anchor="middle">사상 최고 수준</text>
+
+  <!-- bar 3: ADR 22 -->
+  <rect x="520" y="304" width="130" height="16" fill="#c7cdd6"/>
+  <text x="585" y="288" font-size="18" font-weight="700" fill="#263343" text-anchor="middle">약 22만원</text>
+  <text x="585" y="345" font-size="13" fill="rgb(7,7,7)" text-anchor="middle" font-weight="600">나스닥 ADR 환산가</text>
+  <text x="585" y="363" font-size="12" fill="#6b6b6b" text-anchor="middle">163.41달러 기준</text>
+
+  <text x="40" y="372" font-size="12" fill="#9a9a9a">출처: 언론 보도 종합(2026년 8월 22일 종가·ADR 최근 종가 기준) · ADR은 본주와 표시 단위·환산 구조가 달라 단순 가격 비교에는 유의가 필요</text>
+</svg>

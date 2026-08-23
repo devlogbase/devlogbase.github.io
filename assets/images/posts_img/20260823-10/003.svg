@@ -1,0 +1,31 @@
+<svg width="800" height="360" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" font-family="'Segoe UI', 'Noto Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="800" height="360" fill="#ffffff"/>
+  <text x="40" y="46" font-size="22" font-weight="700" fill="rgb(7,7,7)">액면분할 스탠스, 5개월 만에 달라졌다</text>
+  <text x="40" y="70" font-size="14" fill="#6b6b6b">SK하이닉스 경영진 발언 타임라인</text>
+
+  <!-- baseline -->
+  <line x1="90" y1="290" x2="740" y2="290" stroke="#d8dadf" stroke-width="1.5"/>
+
+  <!-- connecting line -->
+  <polyline points="150,250 430,150 690,110" fill="none" stroke="#263343" stroke-width="3"/>
+
+  <!-- point 1: 2026-03-25 -->
+  <circle cx="150" cy="250" r="7" fill="#b9c2cf" stroke="#263343" stroke-width="2"/>
+  <text x="150" y="229" font-size="15" font-weight="700" fill="#263343" text-anchor="middle">"지금 당장 계획 없다"</text>
+  <text x="150" y="315" font-size="13" fill="rgb(7,7,7)" text-anchor="middle" font-weight="600">2026년 3월 25일</text>
+  <text x="150" y="333" font-size="12" fill="#6b6b6b" text-anchor="middle">곽노정 SK하이닉스 대표</text>
+
+  <!-- point 2: 2026-07-10 -->
+  <circle cx="430" cy="150" r="7" fill="#8a97a8" stroke="#263343" stroke-width="2"/>
+  <text x="430" y="129" font-size="15" font-weight="700" fill="#263343" text-anchor="middle">"요청 오면 당연히 하겠죠"</text>
+  <text x="430" y="315" font-size="13" fill="rgb(7,7,7)" text-anchor="middle" font-weight="600">2026년 7월 10일</text>
+  <text x="430" y="333" font-size="12" fill="#6b6b6b" text-anchor="middle">최태원 SK그룹 회장 (뉴욕 ADR 상장 간담회)</text>
+
+  <!-- point 3: 2026-08-23 -->
+  <circle cx="690" cy="110" r="8" fill="#263343" stroke="#263343" stroke-width="2"/>
+  <text x="690" y="87" font-size="16" font-weight="700" fill="#263343" text-anchor="middle">173만원, 여전히 미확정</text>
+  <text x="690" y="315" font-size="13" fill="rgb(7,7,7)" text-anchor="middle" font-weight="600">2026년 8월 23일(오늘)</text>
+  <text x="690" y="333" font-size="12" fill="#6b6b6b" text-anchor="middle">공식 결정·일정 발표 없음</text>
+
+  <text x="40" y="352" font-size="12" fill="#9a9a9a">출처: 언론 보도 종합(반도체의 날 간담회, 나스닥 ADR 상장 기념 간담회) · 두 발언 모두 "검토 가능성"이지 확정 발표가 아님</text>
+</svg>
