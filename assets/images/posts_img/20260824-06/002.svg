@@ -1,0 +1,36 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" font-family="'Segoe UI', 'Noto Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="800" height="400" fill="#ffffff"/>
+  <text x="40" y="46" font-size="22" font-weight="700" fill="rgb(7,7,7)">합산하면 탈락, 따로 보면 통과</text>
+  <text x="40" y="70" font-size="14" fill="#6b6b6b">맞벌이 신혼부부 예시(남편 5,000만원 · 아내 4,000만원)</text>
+
+  <!-- baseline -->
+  <line x1="90" y1="330" x2="740" y2="330" stroke="#d8dadf" stroke-width="1.5"/>
+
+  <!-- reference line: 8500 (old combined standard) -->
+  <line x1="90" y1="109" x2="740" y2="109" stroke="#c7cdd6" stroke-width="1.5" stroke-dasharray="5,5"/>
+  <text x="95" y="101" font-size="12" fill="#8a97a8">기존 기준 8,500만원</text>
+
+  <!-- reference line: 7000 (new single standard) -->
+  <line x1="90" y1="148" x2="740" y2="148" stroke="#046bd2" stroke-width="1.5" stroke-dasharray="5,5"/>
+  <text x="95" y="140" font-size="12" fill="#046bd2">신규 1인 기준 7,000만원</text>
+
+  <!-- bar 1: 남편 5000 -->
+  <rect x="140" y="200" width="110" height="130" fill="#8a97a8"/>
+  <text x="195" y="184" font-size="17" font-weight="700" fill="#263343" text-anchor="middle">5,000만원</text>
+  <text x="195" y="355" font-size="13" fill="rgb(7,7,7)" text-anchor="middle" font-weight="600">남편 소득</text>
+  <text x="195" y="373" font-size="12" fill="#046bd2" text-anchor="middle">1인 기준 충족</text>
+
+  <!-- bar 2: 아내 4000 -->
+  <rect x="290" y="226" width="110" height="104" fill="#8a97a8"/>
+  <text x="345" y="210" font-size="17" font-weight="700" fill="#263343" text-anchor="middle">4,000만원</text>
+  <text x="345" y="355" font-size="13" fill="rgb(7,7,7)" text-anchor="middle" font-weight="600">아내 소득</text>
+  <text x="345" y="373" font-size="12" fill="#046bd2" text-anchor="middle">1인 기준 충족</text>
+
+  <!-- bar 3: 합산 9000 -->
+  <rect x="470" y="96" width="130" height="234" fill="#d64545"/>
+  <text x="535" y="80" font-size="18" font-weight="700" fill="#b32b2b" text-anchor="middle">9,000만원</text>
+  <text x="535" y="355" font-size="13" fill="rgb(7,7,7)" text-anchor="middle" font-weight="600">부부합산 소득</text>
+  <text x="535" y="373" font-size="12" fill="#b32b2b" text-anchor="middle">기존 기준으로는 초과 탈락</text>
+
+  <text x="40" y="392" font-size="12" fill="#9a9a9a">출처: 금융위원회 8·13 부동산 금융대책 보도자료(2026.08.13) 기반 가상 사례 · 10월부터 부부 중 1명만 7,000만원 이하면 신청 가능</text>
+</svg>
