@@ -1,0 +1,27 @@
+<svg width="840" height="420" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 420" font-family="'Segoe UI', 'Noto Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="840" height="420" fill="#ffffff"/>
+  <text x="40" y="46" font-size="22" font-weight="700" fill="rgb(7,7,7)">나눠 살수록, 일시투자가 이길 확률이 높아졌다</text>
+  <text x="40" y="70" font-size="14" fill="#6b6b6b">Vanguard 연구 : 일시투자(Lump Sum)가 분할매수(DCA)를 앞선 비율</text>
+
+  <!-- baseline -->
+  <line x1="80" y1="330" x2="790" y2="330" stroke="#d8dadf" stroke-width="1.5"/>
+  <line x1="80" y1="330" x2="80" y2="90" stroke="#d8dadf" stroke-width="1.5"/>
+
+  <!-- gridlines at 50%, 100% -->
+  <line x1="80" y1="230" x2="790" y2="230" stroke="#eef0f3" stroke-width="1"/>
+  <text x="70" y="234" font-size="12" fill="#9a9a9a" text-anchor="end">50%</text>
+  <line x1="80" y1="130" x2="790" y2="130" stroke="#eef0f3" stroke-width="1"/>
+  <text x="70" y="134" font-size="12" fill="#9a9a9a" text-anchor="end">100%</text>
+
+  <!-- bar 1: 12개월 분할, 67% -->
+  <rect x="180" y="196" width="120" height="134" fill="#8aa8d6"/>
+  <text x="240" y="183" font-size="20" font-weight="700" fill="#263343" text-anchor="middle">67%</text>
+  <text x="240" y="358" font-size="14" fill="rgb(7,7,7)" text-anchor="middle" font-weight="600">12개월에 나눠 매수</text>
+
+  <!-- bar 2: 36개월 분할, 90% -->
+  <rect x="420" y="150" width="120" height="180" fill="#046bd2"/>
+  <text x="480" y="137" font-size="20" font-weight="700" fill="#263343" text-anchor="middle">90%</text>
+  <text x="480" y="358" font-size="14" fill="rgb(7,7,7)" text-anchor="middle" font-weight="600">36개월에 나눠 매수</text>
+
+  <text x="40" y="395" font-size="12" fill="#9a9a9a">출처 : Vanguard Research, "Cost averaging: Invest now or temporarily hold your cash?"(1926~2011년 미국 시장 기준)</text>
+</svg>

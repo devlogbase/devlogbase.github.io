@@ -1,0 +1,41 @@
+<svg width="840" height="440" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 440" font-family="'Segoe UI', 'Noto Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="840" height="440" fill="#ffffff"/>
+  <text x="40" y="46" font-size="22" font-weight="700" fill="rgb(7,7,7)">매달 100만원씩, 가격이 달라도 같은 금액만큼</text>
+  <text x="40" y="70" font-size="14" fill="#6b6b6b">DCA 매수 예시(4개월, 매월 100만원 투자)</text>
+
+  <!-- baseline -->
+  <line x1="80" y1="330" x2="790" y2="330" stroke="#d8dadf" stroke-width="1.5"/>
+
+  <!-- bars: price per unit, scaled -->
+  <!-- max price 12000 -> bar height scale: 12000 -> 200px -->
+  <!-- month1: price 10000 -->
+  <rect x="140" y="163" width="90" height="167" fill="#8aa8d6"/>
+  <text x="185" y="150" font-size="15" font-weight="700" fill="#263343" text-anchor="middle">10,000원</text>
+  <text x="185" y="358" font-size="13" fill="rgb(7,7,7)" text-anchor="middle" font-weight="600">1월</text>
+  <text x="185" y="378" font-size="12" fill="#6b6b6b" text-anchor="middle">100주 매수</text>
+
+  <!-- month2: price 8000 -->
+  <rect x="290" y="197" width="90" height="133" fill="#046bd2"/>
+  <text x="335" y="184" font-size="15" font-weight="700" fill="#263343" text-anchor="middle">8,000원</text>
+  <text x="335" y="358" font-size="13" fill="rgb(7,7,7)" text-anchor="middle" font-weight="600">2월</text>
+  <text x="335" y="378" font-size="12" fill="#6b6b6b" text-anchor="middle">125주 매수</text>
+
+  <!-- month3: price 12000 -->
+  <rect x="440" y="130" width="90" height="200" fill="#8aa8d6"/>
+  <text x="485" y="117" font-size="15" font-weight="700" fill="#263343" text-anchor="middle">12,000원</text>
+  <text x="485" y="358" font-size="13" fill="rgb(7,7,7)" text-anchor="middle" font-weight="600">3월</text>
+  <text x="485" y="378" font-size="12" fill="#6b6b6b" text-anchor="middle">83주 매수</text>
+
+  <!-- month4: price 9000 -->
+  <rect x="590" y="180" width="90" height="150" fill="#046bd2"/>
+  <text x="635" y="167" font-size="15" font-weight="700" fill="#263343" text-anchor="middle">9,000원</text>
+  <text x="635" y="358" font-size="13" fill="rgb(7,7,7)" text-anchor="middle" font-weight="600">4월</text>
+  <text x="635" y="378" font-size="12" fill="#6b6b6b" text-anchor="middle">111주 매수</text>
+
+  <!-- avg cost dashed line -->
+  <line x1="80" y1="205" x2="790" y2="205" stroke="#263343" stroke-width="2" stroke-dasharray="6,5"/>
+  <line x1="660" y1="94" x2="690" y2="94" stroke="#263343" stroke-width="2" stroke-dasharray="6,5"/>
+  <text x="695" y="98" font-size="13" font-weight="700" fill="#263343">평균 매수 단가 9,536원</text>
+
+  <text x="40" y="415" font-size="12" fill="#9a9a9a">4개월 합산 : 총 투자금 400만원, 총 매수 수량 약 419주, 평균 매수 단가 약 9,536원(단순 평균 9,750원보다 낮음)</text>
+</svg>
