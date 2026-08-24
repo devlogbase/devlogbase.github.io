@@ -1,0 +1,37 @@
+<svg width="840" height="380" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 380" font-family="'Segoe UI', 'Noto Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="840" height="380" fill="#ffffff"/>
+  <text x="40" y="46" font-size="22" font-weight="700" fill="rgb(7,7,7)">발표부터 재상장까지, 5개월 남짓</text>
+  <text x="40" y="70" font-size="14" fill="#6b6b6b">카카오 인적분할 추진 일정</text>
+
+  <!-- baseline -->
+  <line x1="80" y1="300" x2="790" y2="300" stroke="#d8dadf" stroke-width="1.5"/>
+
+  <!-- connecting line -->
+  <polyline points="120,260 320,190 550,150 760,110" fill="none" stroke="#263343" stroke-width="3"/>
+
+  <!-- point 1: 발표 -->
+  <circle cx="120" cy="260" r="7" fill="#b9c2cf" stroke="#263343" stroke-width="2"/>
+  <text x="120" y="239" font-size="15" font-weight="700" fill="#263343" text-anchor="middle">이사회 결의</text>
+  <text x="120" y="325" font-size="13" fill="rgb(7,7,7)" text-anchor="middle" font-weight="600">2026년 8월 21일</text>
+  <text x="120" y="343" font-size="12" fill="#6b6b6b" text-anchor="middle">인적분할 결정 공시</text>
+
+  <!-- point 2: 임시주총 -->
+  <circle cx="320" cy="190" r="7" fill="#8aa8d6" stroke="#263343" stroke-width="2"/>
+  <text x="320" y="169" font-size="15" font-weight="700" fill="#263343" text-anchor="middle">임시주주총회</text>
+  <text x="320" y="325" font-size="13" fill="rgb(7,7,7)" text-anchor="middle" font-weight="600">2026년 12월 17일</text>
+  <text x="320" y="343" font-size="12" fill="#6b6b6b" text-anchor="middle">분할 승인 여부 결정</text>
+
+  <!-- point 3: 분할기일 -->
+  <circle cx="550" cy="150" r="7" fill="#046bd2" stroke="#263343" stroke-width="2"/>
+  <text x="550" y="129" font-size="15" font-weight="700" fill="#263343" text-anchor="middle">분할 완료</text>
+  <text x="550" y="325" font-size="13" fill="rgb(7,7,7)" text-anchor="middle" font-weight="600">2027년 1월 1일</text>
+  <text x="550" y="343" font-size="12" fill="#6b6b6b" text-anchor="middle">카카오AI·카카오X 법인 출범</text>
+
+  <!-- point 4: 재상장 -->
+  <circle cx="760" cy="110" r="8" fill="#263343" stroke="#263343" stroke-width="2"/>
+  <text x="760" y="87" font-size="16" font-weight="700" fill="#263343" text-anchor="middle">재상장</text>
+  <text x="760" y="325" font-size="13" fill="rgb(7,7,7)" text-anchor="middle" font-weight="600">2027년 1월 27일</text>
+  <text x="760" y="343" font-size="12" fill="#6b6b6b" text-anchor="middle">양사 변경상장·재상장</text>
+
+  <text x="40" y="372" font-size="12" fill="#9a9a9a">출처: 카카오 보도자료(2026.08.21) · 일정은 주주총회 승인 등에 따라 바뀔 수 있음</text>
+</svg>
