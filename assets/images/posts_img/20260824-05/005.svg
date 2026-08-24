@@ -1,0 +1,50 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="'Segoe UI', 'Noto Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="800" height="600" fill="#ffffff"/>
+  <text x="40" y="46" font-size="22" font-weight="700" fill="rgb(7,7,7)">급등 지속 여부를 보는 3개 층위 지표</text>
+  <text x="40" y="72" font-size="14" fill="#6b6b6b">시간 단위가 짧은 지표부터 확인하고, 온체인 지표로 큰 그림을 맞춰보는 순서</text>
+
+  <!-- Layer 1 -->
+  <rect x="40" y="100" width="720" height="140" rx="12" fill="#263343"/>
+  <text x="64" y="132" font-size="16" font-weight="700" fill="#ffffff">① 파생상품(레버리지) 지표</text>
+  <text x="64" y="153" font-size="12.5" fill="#c7d0dc">단기 방향 · 시간~일 단위로 변함</text>
+  <g font-size="13" font-weight="600" fill="#263343">
+    <rect x="64" y="172" width="120" height="40" rx="8" fill="#ffffff"/>
+    <text x="124" y="197" text-anchor="middle">펀딩비</text>
+    <rect x="196" y="172" width="150" height="40" rx="8" fill="#ffffff"/>
+    <text x="271" y="197" text-anchor="middle">미결제약정(OI)</text>
+    <rect x="358" y="172" width="150" height="40" rx="8" fill="#ffffff"/>
+    <text x="433" y="197" text-anchor="middle">롱숏 비율</text>
+    <rect x="520" y="172" width="150" height="40" rx="8" fill="#ffffff"/>
+    <text x="595" y="197" text-anchor="middle">청산맵 잔여 물량</text>
+  </g>
+
+  <!-- Layer 2 -->
+  <rect x="40" y="256" width="720" height="140" rx="12" fill="#3a4a60"/>
+  <text x="64" y="288" font-size="16" font-weight="700" fill="#ffffff">② 현물·수급 지표</text>
+  <text x="64" y="309" font-size="12.5" fill="#dfe3e8">진짜 돈이 들어오는지 · 일~주 단위로 변함</text>
+  <g font-size="13" font-weight="600" fill="#263343">
+    <rect x="64" y="328" width="150" height="40" rx="8" fill="#ffffff"/>
+    <text x="139" y="353" text-anchor="middle">거래소 순유출입</text>
+    <rect x="226" y="328" width="130" height="40" rx="8" fill="#ffffff"/>
+    <text x="291" y="353" text-anchor="middle">현물 ETF 자금</text>
+    <rect x="368" y="328" width="150" height="40" rx="8" fill="#ffffff"/>
+    <text x="443" y="353" text-anchor="middle">스테이블코인 공급</text>
+    <rect x="530" y="328" width="140" height="40" rx="8" fill="#ffffff"/>
+    <text x="600" y="353" text-anchor="middle">CVD</text>
+  </g>
+
+  <!-- Layer 3 -->
+  <rect x="40" y="412" width="720" height="140" rx="12" fill="#5b6b80"/>
+  <text x="64" y="444" font-size="16" font-weight="700" fill="#ffffff">③ 온체인·심리 지표</text>
+  <text x="64" y="465" font-size="12.5" fill="#e8ecf1">중기 과열·저평가 판단 · 주~달 단위로 변함</text>
+  <g font-size="13" font-weight="600" fill="#263343">
+    <rect x="64" y="484" width="150" height="40" rx="8" fill="#ffffff"/>
+    <text x="139" y="509" text-anchor="middle">MVRV 비율</text>
+    <rect x="226" y="484" width="150" height="40" rx="8" fill="#ffffff"/>
+    <text x="301" y="509" text-anchor="middle">고래 지갑 이동</text>
+    <rect x="388" y="484" width="150" height="40" rx="8" fill="#ffffff"/>
+    <text x="463" y="509" text-anchor="middle">공포탐욕지수</text>
+  </g>
+
+  <text x="40" y="580" font-size="12" fill="#9a9a9a">지표 하나만으로 방향을 단정하기보다, 3개 층위가 같은 방향을 가리키는지를 확인하는 것이 핵심</text>
+</svg>

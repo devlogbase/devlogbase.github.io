@@ -1,0 +1,52 @@
+<svg width="800" height="460" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" font-family="'Segoe UI', 'Noto Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="800" height="460" fill="#ffffff"/>
+  <text x="40" y="42" font-size="22" font-weight="700" fill="rgb(7,7,7)">비트코인 가격 흐름 — 8월 19일 급등 이후 5일</text>
+  <text x="40" y="70" font-size="14" fill="#6b6b6b">6만4,700달러 → 7만9,500달러(+30%, 5일간) → 7만7,000달러(고점 대비 -3%)</text>
+
+  <!-- gridlines -->
+  <g stroke="#e6e6e6" stroke-width="1">
+    <line x1="60" y1="110" x2="760" y2="110"/>
+    <line x1="60" y1="180" x2="760" y2="180"/>
+    <line x1="60" y1="250" x2="760" y2="250"/>
+    <line x1="60" y1="320" x2="760" y2="320"/>
+    <line x1="60" y1="390" x2="760" y2="390"/>
+  </g>
+  <g font-size="12" fill="#9a9a9a" text-anchor="end">
+    <text x="52" y="114">$80,000</text>
+    <text x="52" y="184">$76,000</text>
+    <text x="52" y="254">$72,000</text>
+    <text x="52" y="324">$68,000</text>
+    <text x="52" y="394">$64,000</text>
+  </g>
+
+  <!-- area -->
+  <path d="M60,377.75 L235,288.19 L410,197.5 L585,118.75 L760,162.5 L760,390 L60,390 Z" fill="#263343" fill-opacity="0.10"/>
+  <!-- line -->
+  <path d="M60,377.75 L235,288.19 L410,197.5 L585,118.75 L760,162.5" fill="none" stroke="#263343" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- points -->
+  <circle cx="60" cy="377.75" r="5" fill="#263343"/>
+  <circle cx="235" cy="288.19" r="5" fill="#263343"/>
+  <circle cx="410" cy="197.5" r="5" fill="#263343"/>
+  <circle cx="585" cy="118.75" r="5" fill="#c0392b"/>
+  <circle cx="760" cy="162.5" r="5" fill="#c0392b"/>
+
+  <!-- callout for the peak -->
+  <line x1="585" y1="118.75" x2="585" y2="90" stroke="#c0392b" stroke-width="1.5"/>
+  <text x="585" y="80" font-size="13" font-weight="700" fill="#c0392b" text-anchor="middle">5일 최고 7만9,500달러</text>
+
+  <!-- callout for the pullback -->
+  <line x1="760" y1="162.5" x2="700" y2="210" stroke="#c0392b" stroke-width="1.5"/>
+  <text x="622" y="228" font-size="13" font-weight="700" fill="#c0392b" text-anchor="middle">롱 청산 4.75억달러+</text>
+
+  <!-- x labels -->
+  <g font-size="12" fill="#6b6b6b" text-anchor="middle">
+    <text x="60" y="412">8/19 09:00</text>
+    <text x="235" y="412">8/20 06:50</text>
+    <text x="410" y="412">8/21</text>
+    <text x="585" y="412">8/22 장중고점</text>
+    <text x="760" y="412">8/22 되돌림</text>
+  </g>
+
+  <text x="40" y="442" font-size="12" fill="#9a9a9a">가격은 코인글래스·주요 거래소 집계 기준 근사치이며, 실제 체결가는 거래소마다 다를 수 있음</text>
+</svg>
