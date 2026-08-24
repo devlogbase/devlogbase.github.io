@@ -1,0 +1,44 @@
+<svg width="820" height="480" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 480" font-family="'Segoe UI', 'Noto Sans KR', system-ui, sans-serif">
+  <defs>
+    <marker id="arrowReq1" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#263343"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="820" height="480" fill="#ffffff"/>
+
+  <text x="40" y="42" font-size="21" font-weight="700" fill="rgb(7,7,7)">헤드룸은 LLM에 도달하기 전 컨텍스트를 압축한다</text>
+  <text x="40" y="66" font-size="13.5" fill="#6b6b6b">로컬 프록시에서 오래된 툴 출력, 로그, 파일 내용을 줄여서 넘긴다</text>
+
+  <!-- Box 1: raw context -->
+  <rect x="30" y="150" width="220" height="140" rx="10" fill="#263343"/>
+  <text x="140" y="190" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">압축 전 컨텍스트</text>
+  <text x="140" y="216" font-size="12" fill="#a9b3c1" text-anchor="middle">툴 출력 · 로그</text>
+  <text x="140" y="236" font-size="12" fill="#a9b3c1" text-anchor="middle">파일 내용 · RAG 청크</text>
+  <text x="140" y="266" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">JSON 기준 100%</text>
+
+  <!-- Box 2: headroom (highlighted) -->
+  <rect x="310" y="130" width="200" height="180" rx="10" fill="#1f6feb"/>
+  <text x="410" y="168" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">헤드룸 프록시</text>
+  <text x="410" y="192" font-size="12" fill="#dbe8ff" text-anchor="middle">로컬에서만 처리</text>
+  <text x="410" y="216" font-size="12" fill="#ffffff" text-anchor="middle">원본은 캐싱해서</text>
+  <text x="410" y="234" font-size="12" fill="#ffffff" text-anchor="middle">필요시 복구</text>
+  <text x="410" y="270" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">JSON 60~95%↓</text>
+  <text x="410" y="290" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">코딩 에이전트 15~20%↓</text>
+
+  <!-- Box 3: LLM -->
+  <rect x="570" y="150" width="220" height="140" rx="10" fill="#263343"/>
+  <text x="680" y="196" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">LLM</text>
+  <text x="680" y="220" font-size="12" fill="#a9b3c1" text-anchor="middle">(Claude 등)</text>
+  <text x="680" y="248" font-size="12.5" fill="#ffffff" text-anchor="middle">압축된 컨텍스트만</text>
+  <text x="680" y="266" font-size="12.5" fill="#ffffff" text-anchor="middle">수신, 답변 품질 유지</text>
+
+  <!-- Arrows -->
+  <line x1="250" y1="220" x2="304" y2="220" stroke="#263343" stroke-width="3" marker-end="url(#arrowReq1)"/>
+  <line x1="510" y1="220" x2="564" y2="220" stroke="#263343" stroke-width="3" marker-end="url(#arrowReq1)"/>
+
+  <!-- Footnote -->
+  <rect x="30" y="350" width="760" height="90" rx="8" fill="#f4f6f9" stroke="#e1e5eb"/>
+  <text x="50" y="378" font-size="13" font-weight="700" fill="rgb(7,7,7)">엄밀히는 스킬이나 플러그인이 아니다</text>
+  <text x="50" y="400" font-size="12.5" fill="#3a4a60">headroom wrap claude 명령으로 API 요청 경로 자체를 바꾸는 방식이라, 별도 설치 위치가 아니라</text>
+  <text x="50" y="420" font-size="12.5" fill="#3a4a60">클로드 코드의 ANTHROPIC_BASE_URL 환경변수를 로컬 프록시 주소로 돌려서 동작한다</text>
+</svg>
