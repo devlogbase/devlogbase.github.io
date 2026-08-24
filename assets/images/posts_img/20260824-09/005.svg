@@ -1,0 +1,43 @@
+<svg width="900" height="400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 400" font-family="'Segoe UI', 'Noto Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="900" height="400" fill="#ffffff"/>
+  <text x="40" y="46" font-size="22" font-weight="700" fill="rgb(7,7,7)">앞으로 3주, 확인해야 할 5개 일정</text>
+  <text x="40" y="70" font-size="14" fill="#6b6b6b">국채·금·비트코인 흐름에 영향을 줄 수 있는 예정 이벤트</text>
+
+  <!-- baseline -->
+  <line x1="70" y1="300" x2="850" y2="300" stroke="#d8dadf" stroke-width="1.5"/>
+
+  <!-- connecting line -->
+  <polyline points="110,250 270,190 430,150 590,190 780,110" fill="none" stroke="#263343" stroke-width="3"/>
+
+  <!-- point 1: 잭슨홀 -->
+  <circle cx="110" cy="250" r="7" fill="#b9c2cf" stroke="#263343" stroke-width="2"/>
+  <text x="110" y="229" font-size="14" font-weight="700" fill="#263343" text-anchor="middle">잭슨홀 미팅</text>
+  <text x="110" y="325" font-size="13" fill="rgb(7,7,7)" text-anchor="middle" font-weight="600">8월 28일</text>
+  <text x="110" y="343" font-size="12" fill="#6b6b6b" text-anchor="middle">연준 정책 기조 확인</text>
+
+  <!-- point 2: 바이백 확대 집행 -->
+  <circle cx="270" cy="190" r="7" fill="#8aa8d6" stroke="#263343" stroke-width="2"/>
+  <text x="270" y="169" font-size="14" font-weight="700" fill="#263343" text-anchor="middle">바이백 확대 시행</text>
+  <text x="270" y="325" font-size="13" fill="rgb(7,7,7)" text-anchor="middle" font-weight="600">9월 9일</text>
+  <text x="270" y="343" font-size="12" fill="#6b6b6b" text-anchor="middle">40억 달러 규모 첫 집행</text>
+
+  <!-- point 3: 클레러티법 표결 -->
+  <circle cx="430" cy="150" r="8" fill="#046bd2" stroke="#263343" stroke-width="2"/>
+  <text x="430" y="127" font-size="15" font-weight="700" fill="#263343" text-anchor="middle">클레러티법 표결</text>
+  <text x="430" y="325" font-size="13" fill="rgb(7,7,7)" text-anchor="middle" font-weight="600">9월 15일</text>
+  <text x="430" y="343" font-size="12" fill="#6b6b6b" text-anchor="middle">상원 클로처 60표 확보 여부</text>
+
+  <!-- point 4: FOMC -->
+  <circle cx="590" cy="190" r="7" fill="#8aa8d6" stroke="#263343" stroke-width="2"/>
+  <text x="590" y="169" font-size="14" font-weight="700" fill="#263343" text-anchor="middle">FOMC 회의</text>
+  <text x="590" y="325" font-size="13" fill="rgb(7,7,7)" text-anchor="middle" font-weight="600">9월 16일</text>
+  <text x="590" y="343" font-size="12" fill="#6b6b6b" text-anchor="middle">기준금리 결정</text>
+
+  <!-- point 5: 바이백 종료 -->
+  <circle cx="780" cy="110" r="7" fill="#263343" stroke="#263343" stroke-width="2"/>
+  <text x="780" y="87" font-size="14" font-weight="700" fill="#263343" text-anchor="middle">확대 바이백 종료</text>
+  <text x="780" y="325" font-size="13" fill="rgb(7,7,7)" text-anchor="middle" font-weight="600">11월 4일</text>
+  <text x="780" y="343" font-size="12" fill="#6b6b6b" text-anchor="middle">9~11월 시행 구간 마감</text>
+
+  <text x="40" y="378" font-size="12" fill="#9a9a9a">출처: CNBC, 미 상원 일정 보도 종합 · 일정은 정치 상황에 따라 바뀔 수 있음</text>
+</svg>
