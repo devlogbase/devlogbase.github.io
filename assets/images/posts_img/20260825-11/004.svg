@@ -1,0 +1,52 @@
+<svg width="800" height="460" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" font-family="'Segoe UI', 'Noto Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="800" height="460" fill="#ffffff"/>
+  <text x="40" y="42" font-size="22" font-weight="700" fill="rgb(7,7,7)">목표가 시나리오 — 현재가 → $83,000 → $89,000</text>
+  <text x="40" y="70" font-size="14" fill="#6b6b6b">각 구간은 조건이 충족될 때만 다음 단계로 넘어가는 조건부 시나리오</text>
+
+  <!-- vertical scale reference -->
+  <g stroke="#e6e6e6" stroke-width="1">
+    <line x1="60" y1="130" x2="760" y2="130"/>
+    <line x1="60" y1="230" x2="760" y2="230"/>
+    <line x1="60" y1="330" x2="760" y2="330"/>
+  </g>
+
+  <!-- Stage boxes -->
+  <!-- current -->
+  <rect x="60" y="290" width="180" height="80" rx="8" fill="#263343"/>
+  <text x="150" y="322" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">현재가</text>
+  <text x="150" y="346" font-size="16" font-weight="700" fill="#fff" text-anchor="middle">$80,600대</text>
+  <text x="150" y="364" font-size="11" fill="#cfd6e0" text-anchor="middle">8만 달러 저항선 돌파</text>
+
+  <!-- arrow 1 -->
+  <path d="M240,330 L330,270" stroke="#6b6b6b" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <text x="250" y="255" font-size="12" fill="#6b6b6b">거래량 동반 안착 시</text>
+
+  <!-- stage 1: 83000 -->
+  <rect x="330" y="190" width="180" height="80" rx="8" fill="#046bd2"/>
+  <text x="420" y="222" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">1차 목표</text>
+  <text x="420" y="246" font-size="16" font-weight="700" fill="#fff" text-anchor="middle">$83,000</text>
+  <text x="420" y="264" font-size="11" fill="#dbe9fb" text-anchor="middle">$82K~$87K 구간 개방</text>
+
+  <!-- arrow 2 -->
+  <path d="M510,210 L600,140" stroke="#6b6b6b" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <text x="512" y="140" font-size="12" fill="#6b6b6b">거래량 동반 확정 돌파 시</text>
+
+  <!-- stage 2: 89000 -->
+  <rect x="600" y="60" width="180" height="80" rx="8" fill="#1e7e34"/>
+  <text x="690" y="92" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">조건부 목표</text>
+  <text x="690" y="116" font-size="16" font-weight="700" fill="#fff" text-anchor="middle">$89,000</text>
+  <text x="690" y="134" font-size="11" fill="#d7ecdd" text-anchor="middle">거래량 조건 미충족 시 무효</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#6b6b6b"/>
+    </marker>
+  </defs>
+
+  <!-- downside note -->
+  <rect x="330" y="380" width="380" height="56" rx="8" fill="#fbeceb"/>
+  <text x="350" y="404" font-size="12" font-weight="700" fill="#c0392b">반대 시나리오</text>
+  <text x="350" y="422" font-size="12" fill="#7a3530">$79,500 지지선 이탈 시 조정 국면 재진입 가능</text>
+
+  <text x="40" y="452" font-size="12" fill="#9a9a9a">목표가는 여러 애널리스트 기술적 분석을 종합한 참고용 시나리오이며 확정된 예측이 아님</text>
+</svg>

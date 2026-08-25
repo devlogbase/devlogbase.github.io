@@ -1,0 +1,50 @@
+<svg width="800" height="440" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" font-family="'Segoe UI', 'Noto Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="800" height="440" fill="#ffffff"/>
+  <text x="40" y="42" font-size="22" font-weight="700" fill="rgb(7,7,7)">8만 달러 저항선, 세 번째 시도만에 돌파</text>
+  <text x="40" y="70" font-size="14" fill="#6b6b6b">8월 24일 두 차례 실패 후 8월 25일 8만 600달러대 안착</text>
+
+  <!-- resistance line -->
+  <line x1="60" y1="150" x2="760" y2="150" stroke="#c0392b" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <text x="765" y="154" font-size="13" font-weight="700" fill="#c0392b">$80,000 저항선</text>
+
+  <g stroke="#e6e6e6" stroke-width="1">
+    <line x1="60" y1="210" x2="760" y2="210"/>
+    <line x1="60" y1="270" x2="760" y2="270"/>
+    <line x1="60" y1="330" x2="760" y2="330"/>
+  </g>
+  <g font-size="12" fill="#9a9a9a" text-anchor="end">
+    <text x="52" y="154">$80,000</text>
+    <text x="52" y="214">$79,000</text>
+    <text x="52" y="274">$78,000</text>
+    <text x="52" y="334">$77,000</text>
+  </g>
+
+  <!-- path: start 79000 -> touch 80000 (fail1) -> pull back 78400 -> touch 80000 (fail2) -> pull back 79000 -> breakout 80600 -->
+  <path d="M60,210 L185,150 L290,290 L410,150 L520,210 L640,120 L760,105"
+        fill="none" stroke="#263343" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <circle cx="185" cy="150" r="6" fill="#c0392b"/>
+  <circle cx="410" cy="150" r="6" fill="#c0392b"/>
+  <circle cx="760" cy="105" r="6" fill="#1e7e34"/>
+
+  <line x1="185" y1="150" x2="185" y2="100" stroke="#c0392b" stroke-width="1.5"/>
+  <text x="185" y="90" font-size="12" font-weight="700" fill="#c0392b" text-anchor="middle">1차 시도 실패</text>
+
+  <line x1="290" y1="290" x2="290" y2="320" stroke="#6b6b6b" stroke-width="1.5"/>
+  <text x="290" y="336" font-size="12" fill="#6b6b6b" text-anchor="middle">7만8,400달러대 조정</text>
+
+  <line x1="410" y1="150" x2="410" y2="100" stroke="#c0392b" stroke-width="1.5"/>
+  <text x="410" y="90" font-size="12" font-weight="700" fill="#c0392b" text-anchor="middle">2차 시도 실패</text>
+
+  <line x1="760" y1="105" x2="700" y2="70" stroke="#1e7e34" stroke-width="1.5"/>
+  <text x="672" y="58" font-size="13" font-weight="700" fill="#1e7e34" text-anchor="middle">돌파 성공, 8만 600달러대</text>
+
+  <g font-size="12" fill="#6b6b6b" text-anchor="middle">
+    <text x="60" y="400">8/24 오전</text>
+    <text x="290" y="400">8/24 조정</text>
+    <text x="520" y="400">8/24 저녁</text>
+    <text x="760" y="400">8/25 안착</text>
+  </g>
+
+  <text x="40" y="422" font-size="12" fill="#9a9a9a">가격은 코인게코·주요 거래소 집계 기준 근사치이며, 실제 체결가는 거래소마다 다를 수 있음</text>
+</svg>
