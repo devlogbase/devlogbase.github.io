@@ -1,0 +1,37 @@
+<svg width="800" height="360" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" font-family="'Segoe UI', 'Noto Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="800" height="360" fill="#ffffff"/>
+  <text x="40" y="42" font-size="22" font-weight="700" fill="rgb(7,7,7)">엔비디아 2분기 실적발표 일정</text>
+  <text x="40" y="68" font-size="14" fill="#6b6b6b">미국 현지시각 8월 26일(수) 장 마감 후 발표, 한국시각으로는 다음날 새벽</text>
+
+  <!-- timeline base line -->
+  <line x1="70" y1="180" x2="730" y2="180" stroke="#d8dce3" stroke-width="3"/>
+
+  <!-- node 1 -->
+  <circle cx="120" cy="180" r="8" fill="#263343"/>
+  <text x="120" y="150" font-size="13" font-weight="700" fill="#263343" text-anchor="middle">美 정규장 마감</text>
+  <text x="120" y="210" font-size="12" fill="#6b6b6b" text-anchor="middle">8/26(수)</text>
+  <text x="120" y="228" font-size="12" fill="#6b6b6b" text-anchor="middle">오후 4:00 (동부시간)</text>
+  <text x="120" y="246" font-size="12" fill="#6b6b6b" text-anchor="middle">한국시각 8/27 오전 5:00</text>
+
+  <!-- node 2 -->
+  <circle cx="330" cy="180" r="8" fill="#046bd2"/>
+  <text x="330" y="150" font-size="13" font-weight="700" fill="#046bd2" text-anchor="middle">실적 보도자료 발표</text>
+  <text x="330" y="210" font-size="12" fill="#6b6b6b" text-anchor="middle">장 마감 직후</text>
+  <text x="330" y="228" font-size="12" fill="#6b6b6b" text-anchor="middle">매출·EPS·가이던스 공개</text>
+
+  <!-- node 3 -->
+  <circle cx="540" cy="180" r="8" fill="#046bd2"/>
+  <text x="540" y="150" font-size="13" font-weight="700" fill="#046bd2" text-anchor="middle">컨퍼런스콜 시작</text>
+  <text x="540" y="210" font-size="12" fill="#6b6b6b" text-anchor="middle">오후 5:00 (동부시간)</text>
+  <text x="540" y="228" font-size="12" fill="#6b6b6b" text-anchor="middle">한국시각 8/27 오전 6:00</text>
+
+  <!-- node 4 -->
+  <circle cx="700" cy="180" r="8" fill="#1e7e34"/>
+  <text x="700" y="150" font-size="13" font-weight="700" fill="#1e7e34" text-anchor="middle">국내 반영</text>
+  <text x="700" y="210" font-size="12" fill="#6b6b6b" text-anchor="middle">8/27(목)</text>
+  <text x="700" y="228" font-size="12" fill="#6b6b6b" text-anchor="middle">국내 증시 개장 전 뉴스 반영</text>
+
+  <rect x="70" y="280" width="660" height="56" rx="8" fill="#eef4fc"/>
+  <text x="90" y="304" font-size="12" font-weight="700" fill="#046bd2">체크포인트</text>
+  <text x="90" y="322" font-size="12" fill="#1b3a5c">정확한 발표 시각은 회사 발표 직전까지 몇 분 단위로 바뀔 수 있어 IR 공식 페이지에서 재확인이 필요합니다</text>
+</svg>
