@@ -31,6 +31,8 @@ layout: default
         </header>
       {% endunless %}
 
+      {% if page.share %}{% include social-share.html location="top" %}{% endif %}
+
       <section class="page__content" itemprop="text">
         {% if page.toc %}
           <aside class="sidebar__right {% if page.toc_sticky %}sticky{% endif %}">

@@ -280,6 +280,15 @@ body {
   }
 }
 
+.page__share--top {
+  margin-top: 0;
+  margin-bottom: 2em;
+  padding-top: 0;
+  padding-bottom: 1em;
+  border-top: 0;
+  border-bottom: 1px solid $border-color;
+}
+
 .page__share-title {
   margin-bottom: 10px;
   font-size: $type-size-6;
