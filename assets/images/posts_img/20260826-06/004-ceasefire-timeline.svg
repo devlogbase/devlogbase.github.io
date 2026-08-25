@@ -1,0 +1,48 @@
+<svg width="900" height="400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 400" font-family="'Segoe UI', 'Noto Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="900" height="400" fill="#ffffff"/>
+  <text x="40" y="42" font-size="22" font-weight="700" fill="rgb(7,7,7)">2026년 미·이란 휴전, 체결과 파기의 반복</text>
+  <text x="40" y="68" font-size="14" fill="#6b6b6b">4월 첫 합의 이후 같은 패턴이 최소 세 차례 되풀이됐습니다</text>
+
+  <!-- timeline base line -->
+  <line x1="70" y1="200" x2="830" y2="200" stroke="#d8dce3" stroke-width="3"/>
+
+  <!-- node 1: April agreement -->
+  <circle cx="110" cy="200" r="8" fill="#1e7e34"/>
+  <text x="110" y="164" font-size="13" font-weight="700" fill="#1e7e34" text-anchor="middle">4월</text>
+  <text x="110" y="182" font-size="12" font-weight="700" fill="#1e7e34" text-anchor="middle">첫 휴전 합의</text>
+  <text x="110" y="228" font-size="12" fill="#6b6b6b" text-anchor="middle">미·이란 휴전</text>
+  <text x="110" y="246" font-size="12" fill="#6b6b6b" text-anchor="middle">협정 체결</text>
+
+  <!-- node 2: collapse 25 days later -->
+  <circle cx="290" cy="200" r="8" fill="#c0392b"/>
+  <text x="290" y="164" font-size="13" font-weight="700" fill="#c0392b" text-anchor="middle">7월 13일</text>
+  <text x="290" y="182" font-size="12" font-weight="700" fill="#c0392b" text-anchor="middle">25일 만에 파기</text>
+  <text x="290" y="228" font-size="12" fill="#6b6b6b" text-anchor="middle">호르무즈·레바논</text>
+  <text x="290" y="246" font-size="12" fill="#6b6b6b" text-anchor="middle">무력충돌로 붕괴</text>
+
+  <!-- node 3: June MOU near, Kospi rally -->
+  <circle cx="470" cy="200" r="8" fill="#046bd2"/>
+  <text x="470" y="164" font-size="13" font-weight="700" fill="#046bd2" text-anchor="middle">6월</text>
+  <text x="470" y="182" font-size="12" font-weight="700" fill="#046bd2" text-anchor="middle">MOU 임박 보도</text>
+  <text x="470" y="228" font-size="12" fill="#6b6b6b" text-anchor="middle">코스피 8,700 돌파</text>
+  <text x="470" y="246" font-size="12" fill="#6b6b6b" text-anchor="middle">국제유가 4%대 급락</text>
+
+  <!-- node 4: another collapse -->
+  <circle cx="650" cy="200" r="8" fill="#c0392b"/>
+  <text x="650" y="164" font-size="13" font-weight="700" fill="#c0392b" text-anchor="middle">6월 말</text>
+  <text x="650" y="182" font-size="12" font-weight="700" fill="#c0392b" text-anchor="middle">또다시 충돌</text>
+  <text x="650" y="228" font-size="12" fill="#6b6b6b" text-anchor="middle">레바논·호르무즈</text>
+  <text x="650" y="246" font-size="12" fill="#6b6b6b" text-anchor="middle">교전 재개</text>
+
+  <!-- node 5: Aug 25 new report -->
+  <circle cx="790" cy="200" r="9" fill="#263343"/>
+  <text x="790" y="164" font-size="13" font-weight="700" fill="#263343" text-anchor="middle">8월 25일</text>
+  <text x="790" y="182" font-size="12" font-weight="700" fill="#263343" text-anchor="middle">새 휴전 보도</text>
+  <text x="790" y="228" font-size="12" fill="#6b6b6b" text-anchor="middle">리아노보스티</text>
+  <text x="790" y="246" font-size="12" fill="#6b6b6b" text-anchor="middle">"공식 발표 며칠 내"</text>
+
+  <rect x="70" y="300" width="720" height="70" rx="8" fill="#eef4fc"/>
+  <text x="90" y="326" font-size="12" font-weight="700" fill="#046bd2">체크포인트</text>
+  <text x="90" y="346" font-size="12" fill="#1b3a5c">같은 해에만 합의와 파기가 반복되면서, 시장은 새 휴전 보도가 나와도 "이번엔 진짜인지"부터 의심하는</text>
+  <text x="90" y="364" font-size="12" fill="#1b3a5c">쪽으로 학습됐습니다. 자산별 반응 속도 차이는 이 학습효과가 얼마나 반영됐는지에 달려 있습니다.</text>
+</svg>
