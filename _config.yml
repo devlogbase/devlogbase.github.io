@@ -81,6 +81,8 @@ facebook:
   username:
   app_id:
   publisher:
+kakao:
+  js_key: "e02c2a3c8eef780a9743de400292a1e4"
 og_image: # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
@@ -279,7 +281,7 @@ defaults:
       read_time: #true
       show_date: true
       comments: true
-      # share: true
+      share: true
       related: true
       sidebar:
         nav: "categories"
