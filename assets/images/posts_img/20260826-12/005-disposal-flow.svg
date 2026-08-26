@@ -1,0 +1,43 @@
+<svg width="800" height="360" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" font-family="'Segoe UI', 'Noto Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="800" height="360" fill="#ffffff"/>
+  <text x="40" y="42" font-size="22" font-weight="700" fill="rgb(7,7,7)">국가자산기본법상 몰수 가상자산 처분 절차</text>
+  <text x="40" y="70" font-size="14" fill="#6b6b6b">개인의 정상 보유 코인은 이 절차의 어느 단계에도 해당하지 않습니다</text>
+
+  <!-- step boxes -->
+  <g font-size="13">
+    <rect x="40" y="120" width="150" height="90" rx="8" fill="#f7f7f7" stroke="#d8d8d8"/>
+    <text x="115" y="155" font-weight="700" text-anchor="middle" fill="#333">몰수·압류</text>
+    <text x="115" y="175" text-anchor="middle" fill="#6b6b6b" font-size="12">범죄수익은닉규제법</text>
+    <text x="115" y="192" text-anchor="middle" fill="#6b6b6b" font-size="12">근거 특정범죄 한정</text>
+
+    <rect x="230" y="120" width="150" height="90" rx="8" fill="#f7f7f7" stroke="#d8d8d8"/>
+    <text x="305" y="155" font-weight="700" text-anchor="middle" fill="#333">민간 커스터디</text>
+    <text x="305" y="175" text-anchor="middle" fill="#6b6b6b" font-size="12">KDAC·두나무 등</text>
+    <text x="305" y="192" text-anchor="middle" fill="#6b6b6b" font-size="12">수탁 보관</text>
+
+    <rect x="420" y="120" width="150" height="90" rx="8" fill="#fdf3f0" stroke="#e7c9c0"/>
+    <text x="495" y="150" font-weight="700" text-anchor="middle" fill="#c0392b">처분 (원칙)</text>
+    <text x="495" y="170" text-anchor="middle" fill="#6b6b6b" font-size="12">취득 직후</text>
+    <text x="495" y="187" text-anchor="middle" fill="#6b6b6b" font-size="12">경매 매각</text>
+
+    <rect x="610" y="120" width="150" height="90" rx="8" fill="#eef6f0" stroke="#c7ddc9"/>
+    <text x="685" y="150" font-weight="700" text-anchor="middle" fill="#1e7e34">처분 (예외)</text>
+    <text x="685" y="170" text-anchor="middle" fill="#6b6b6b" font-size="12">시장 충격 우려 시</text>
+    <text x="685" y="187" text-anchor="middle" fill="#6b6b6b" font-size="12">분할 경매</text>
+  </g>
+
+  <!-- arrows -->
+  <g stroke="#9a9a9a" stroke-width="1.5" marker-end="url(#arrow)">
+    <line x1="190" y1="165" x2="225" y2="165"/>
+    <line x1="380" y1="165" x2="415" y2="165"/>
+    <line x1="570" y1="165" x2="605" y2="165"/>
+  </g>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#9a9a9a"/>
+    </marker>
+  </defs>
+
+  <text x="40" y="270" font-size="13" fill="#333">처분 대금은 B2G(기업 · 정부 간 거래) 형태로 민간 커스터디 기업이 참여하는 시장을 통해 정산됩니다.</text>
+  <text x="40" y="295" font-size="13" fill="#333">결산 시점에는 마크 투 마켓(시가 재평가) 방식 적용이 함께 검토되고 있습니다.</text>
+</svg>

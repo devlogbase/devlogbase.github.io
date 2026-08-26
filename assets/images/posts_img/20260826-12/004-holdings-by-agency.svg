@@ -1,0 +1,31 @@
+<svg width="800" height="420" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" font-family="'Segoe UI', 'Noto Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="800" height="420" fill="#ffffff"/>
+  <text x="40" y="42" font-size="22" font-weight="700" fill="rgb(7,7,7)">공공기관 보유 가상자산 약 780억원 (2026년 4월 기준)</text>
+  <text x="40" y="70" font-size="14" fill="#6b6b6b">범죄수익 몰수·압류·기부로 국가에 귀속된 물량이며, 신규 매입분이 아닙니다</text>
+
+  <!-- baseline -->
+  <line x1="220" y1="340" x2="740" y2="340" stroke="#e6e6e6" stroke-width="1"/>
+
+  <!-- bars: max 521 -> scale 400px for 521 -->
+  <!-- 국세청 521억 -->
+  <rect x="220" y="110" width="60" height="230" fill="#263343"/>
+  <text x="250" y="100" font-size="14" font-weight="700" fill="#263343" text-anchor="middle">521억원</text>
+  <text x="250" y="362" font-size="13" fill="#333" text-anchor="middle">국세청</text>
+
+  <!-- 검찰청 234억 -->
+  <rect x="360" y="237" width="60" height="103" fill="#5b6b82"/>
+  <text x="390" y="227" font-size="14" font-weight="700" fill="#5b6b82" text-anchor="middle">234억원</text>
+  <text x="390" y="362" font-size="13" fill="#333" text-anchor="middle">검찰청</text>
+
+  <!-- 경찰청 22억 -->
+  <rect x="500" y="330" width="60" height="10" fill="#9aa5b1"/>
+  <text x="530" y="320" font-size="14" font-weight="700" fill="#9aa5b1" text-anchor="middle">22억원</text>
+  <text x="530" y="362" font-size="13" fill="#333" text-anchor="middle">경찰청</text>
+
+  <!-- 관세청 3억 -->
+  <rect x="640" y="338" width="60" height="2" fill="#c7ced6"/>
+  <text x="670" y="320" font-size="14" font-weight="700" fill="#9aa5b1" text-anchor="middle">3억원</text>
+  <text x="670" y="362" font-size="13" fill="#333" text-anchor="middle">관세청</text>
+
+  <text x="40" y="400" font-size="12" fill="#9a9a9a">국세청은 한국디지털자산수탁(KDAC), 경찰청은 두나무(업비트)를 수탁 사업자로 선정했습니다.</text>
+</svg>
