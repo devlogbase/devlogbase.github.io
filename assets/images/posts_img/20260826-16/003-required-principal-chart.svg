@@ -1,0 +1,29 @@
+<svg width="800" height="440" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" font-family="'Segoe UI', 'Noto Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="800" height="440" fill="#ffffff"/>
+  <text x="40" y="46" font-size="22" font-weight="700" fill="rgb(7,7,7)">월 배당 200만원 목표, 필요 원금은 시나리오별로 32~43억원</text>
+  <text x="40" y="70" font-size="14" fill="#6b6b6b">삼성전자 배당수익률 시나리오별 필요 투자원금 (세전 배당 기준)</text>
+
+  <!-- baseline -->
+  <line x1="90" y1="370" x2="740" y2="370" stroke="#d8dadf" stroke-width="1.5"/>
+  <text x="740" y="362" font-size="12" fill="#9a9a9a" text-anchor="end">0억</text>
+
+  <!-- bar 1: 우선주 정기배당 0.74%, 32.6억 -->
+  <rect x="130" y="174" width="130" height="196" fill="#8a97a8"/>
+  <text x="195" y="160" font-size="19" font-weight="700" fill="#263343" text-anchor="middle">32.6억원</text>
+  <text x="195" y="392" font-size="13" fill="rgb(7,7,7)" text-anchor="middle" font-weight="600">우선주</text>
+  <text x="195" y="410" font-size="12" fill="#6b6b6b" text-anchor="middle">정기배당 0.74%</text>
+
+  <!-- bar 2: 특별배당 포함 연도 0.64%, 37.6억 -->
+  <rect x="335" y="144" width="130" height="226" fill="#4a5a72"/>
+  <text x="400" y="130" font-size="19" font-weight="700" fill="#263343" text-anchor="middle">37.6억원</text>
+  <text x="400" y="392" font-size="13" fill="rgb(7,7,7)" text-anchor="middle" font-weight="600">보통주 · 특별배당 포함</text>
+  <text x="400" y="410" font-size="12" fill="#6b6b6b" text-anchor="middle">일회성 연도 0.64%</text>
+
+  <!-- bar 3: 보통주 정기배당 0.55%, 43.4억 -->
+  <rect x="540" y="110" width="130" height="260" fill="#263343"/>
+  <text x="605" y="96" font-size="19" font-weight="700" fill="#263343" text-anchor="middle">43.4억원</text>
+  <text x="605" y="392" font-size="13" fill="rgb(7,7,7)" text-anchor="middle" font-weight="600">보통주</text>
+  <text x="605" y="410" font-size="12" fill="#6b6b6b" text-anchor="middle">정기배당 0.55%</text>
+
+  <text x="40" y="432" font-size="12" fill="#9a9a9a">기준 : 2026년 8월 26일 종가(보통주 261,500원·우선주 196,800원), 정기배당 연 1,446~1,448원, 2025 결산 특별배당 포함 1,668원</text>
+</svg>
