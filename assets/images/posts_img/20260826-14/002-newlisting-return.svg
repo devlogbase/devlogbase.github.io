@@ -1,0 +1,22 @@
+<svg width="800" height="380" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" font-family="'Segoe UI', 'Noto Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="800" height="380" fill="#ffffff"/>
+  <text x="40" y="46" font-size="22" font-weight="700" fill="rgb(7,7,7)">새내기주 낙폭, 시장 평균의 3배</text>
+  <text x="40" y="70" font-size="14" fill="#6b6b6b">2026년 7월 신규상장 20종목 평균 등락률 vs 국내 상장 종목 전체 평균</text>
+
+  <!-- zero line -->
+  <line x1="90" y1="120" x2="740" y2="120" stroke="#d8dadf" stroke-width="1.5"/>
+  <text x="740" y="112" font-size="12" fill="#9a9a9a" text-anchor="end">0%</text>
+
+  <!-- bar 1: market average -7.07% (height 61) -->
+  <rect x="230" y="120" width="130" height="61" fill="#8a97a8"/>
+  <text x="295" y="201" font-size="18" font-weight="700" fill="#263343" text-anchor="middle">-7.07%</text>
+  <text x="295" y="223" font-size="13" fill="rgb(7,7,7)" text-anchor="middle" font-weight="600">국내 상장 종목 전체 평균</text>
+  <text x="295" y="241" font-size="12" fill="#6b6b6b" text-anchor="middle">2,867개 종목 기준</text>
+
+  <!-- bar 2: newly listed -25.38% (height 220) -->
+  <rect x="450" y="120" width="130" height="220" fill="#263343"/>
+  <text x="515" y="180" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">-25.38%</text>
+  <text x="515" y="362" font-size="13" fill="rgb(7,7,7)" text-anchor="middle" font-weight="600">2026년 7월 신규상장 20종목</text>
+
+  <text x="40" y="372" font-size="12" fill="#9a9a9a">출처 : 파이낸셜뉴스(2026년 8월 2일 보도, 7월 말 기준 집계)</text>
+</svg>

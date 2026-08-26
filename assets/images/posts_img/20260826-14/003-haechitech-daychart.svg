@@ -1,0 +1,47 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" font-family="'Segoe UI', 'Noto Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="800" height="400" fill="#ffffff"/>
+  <text x="40" y="46" font-size="22" font-weight="700" fill="rgb(7,7,7)">시초가부터 이미 공모가 아래</text>
+  <text x="40" y="70" font-size="14" fill="#6b6b6b">해치텍 상장 첫날(8월 25일) 시간대별 주가 흐름, 공모가 23,000원 기준</text>
+
+  <!-- 공모가 reference line -->
+  <line x1="90" y1="106" x2="740" y2="106" stroke="#c7302b" stroke-width="1.5" stroke-dasharray="5,4"/>
+  <text x="744" y="110" font-size="12" fill="#c7302b">공모가 23,000원</text>
+
+  <!-- baseline -->
+  <line x1="90" y1="330" x2="740" y2="330" stroke="#d8dadf" stroke-width="1.5"/>
+
+  <!-- connecting line -->
+  <polyline points="150,189 280,159 410,278 540,282 670,301" fill="none" stroke="#8a97a8" stroke-width="2"/>
+
+  <!-- point 1: 시가 -->
+  <circle cx="150" cy="189" r="5" fill="#263343"/>
+  <text x="150" y="176" font-size="15" font-weight="700" fill="#263343" text-anchor="middle">20,500원</text>
+  <text x="150" y="350" font-size="13" fill="rgb(7,7,7)" text-anchor="middle" font-weight="600">시가 (09:00)</text>
+  <text x="150" y="368" font-size="12" fill="#6b6b6b" text-anchor="middle">-10.9%</text>
+
+  <!-- point 2: 장중 고가 -->
+  <circle cx="280" cy="159" r="5" fill="#263343"/>
+  <text x="280" y="146" font-size="15" font-weight="700" fill="#263343" text-anchor="middle">21,400원</text>
+  <text x="280" y="350" font-size="13" fill="rgb(7,7,7)" text-anchor="middle" font-weight="600">장중 고가</text>
+  <text x="280" y="368" font-size="12" fill="#6b6b6b" text-anchor="middle">-7.0%</text>
+
+  <!-- point 3: 09:44 -->
+  <circle cx="410" cy="278" r="5" fill="#263343"/>
+  <text x="410" y="265" font-size="15" font-weight="700" fill="#263343" text-anchor="middle">17,790원</text>
+  <text x="410" y="350" font-size="13" fill="rgb(7,7,7)" text-anchor="middle" font-weight="600">오전 9시 44분</text>
+  <text x="410" y="368" font-size="12" fill="#6b6b6b" text-anchor="middle">-22.7%</text>
+
+  <!-- point 4: 10:39 -->
+  <circle cx="540" cy="282" r="5" fill="#263343"/>
+  <text x="540" y="269" font-size="15" font-weight="700" fill="#263343" text-anchor="middle">17,300원</text>
+  <text x="540" y="350" font-size="13" fill="rgb(7,7,7)" text-anchor="middle" font-weight="600">오전 10시 39분</text>
+  <text x="540" y="368" font-size="12" fill="#6b6b6b" text-anchor="middle">-24.8%</text>
+
+  <!-- point 5: 장중 저가 -->
+  <circle cx="670" cy="301" r="5" fill="#8a1f1f"/>
+  <text x="670" y="288" font-size="15" font-weight="700" fill="#8a1f1f" text-anchor="middle">17,090원</text>
+  <text x="670" y="350" font-size="13" fill="rgb(7,7,7)" text-anchor="middle" font-weight="600">장중 저가</text>
+  <text x="670" y="368" font-size="12" fill="#6b6b6b" text-anchor="middle">-25.7%</text>
+
+  <text x="40" y="392" font-size="12" fill="#9a9a9a">출처 : 언론 보도 종합(2026년 8월 25일 장중 시세) · 정규장 종가는 매체별로 확인되지 않아 장중 시세 기준으로 구성</text>
+</svg>
