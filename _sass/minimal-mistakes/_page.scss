@@ -175,6 +175,14 @@ body {
     margin-top: 1em;
     margin-bottom: 1em;
   }
+
+  /* 2026.08.26 image captions ("*caption*" on its own line) sit right under
+     the image with almost no gap before the next paragraph, so they read as
+     if they run into the following text. Give the caption itself more room
+     below so it stays visually separate. */
+  p:has(> em:only-child) {
+    margin-bottom: 2em;
+  }
 }
 
 .page__hero {
