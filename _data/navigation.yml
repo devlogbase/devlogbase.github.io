@@ -6,8 +6,8 @@ main:
   - title: "About"
     url: /about/
 
-  - title: "GitHub"
-    url: https://github.com/devlogbase
+  # - title: "GitHub"
+  #   url: https://github.com/devlogbase
 
   # - title: "Projects"
   #   url: /projects/
