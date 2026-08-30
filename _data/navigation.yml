@@ -18,17 +18,17 @@ main:
 # sidebar navigation (categories)
 # 2022.02.15 sidebar update : simple ver.
 categories:
-  - title: "Algorithm"
-    url: /categories/algorithm/
   - title: "AI"
     url: /categories/ai/
-  - title: "Issue"
-    url: /categories/issue/
-  - title: "Daily"
-    url: /categories/daily/
-  - title: "Investment"
-    url: /categories/investment/
+  - title: "Algorithm"
+    url: /categories/algorithm/
   - title: "Crypto"
     url: /categories/crypto/
+  - title: "Daily"
+    url: /categories/daily/
   - title: "Game"
     url: /categories/game/
+  - title: "Investment"
+    url: /categories/investment/
+  - title: "Issue"
+    url: /categories/issue/
