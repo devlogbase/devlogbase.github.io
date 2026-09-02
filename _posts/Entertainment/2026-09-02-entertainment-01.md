@@ -1,5 +1,5 @@
 ---
-title: "류승룡 하지원 신작 제목이 '비광'인 이유"
+title: "류승룡 하지원 신작 제목이 '비광'인 이유, 화투 규칙에 담긴 뜻"
 excerpt: "9월 2일 개봉한 영화 '비광', 화투에서 가장 서러운 패가 왜 제목이 됐는지 화투 규칙과 감독 인터뷰로 풀어봤습니다"
 header:
   teaser: "/assets/images/posts_img/20260902-11/000-bigwang-poster.jpg"
