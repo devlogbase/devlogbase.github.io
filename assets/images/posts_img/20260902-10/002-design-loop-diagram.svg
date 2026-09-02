@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 620" width="620" height="620" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#046bd2"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="620" height="620" fill="#ffffff"/>
+
+  <!-- faint base circle so the loop shape reads even under the boxes -->
+  <circle cx="310" cy="310" r="175" fill="none" stroke="#cfe0f4" stroke-width="3"/>
+
+  <!-- center label -->
+  <circle cx="310" cy="310" r="95" fill="#eaf3fc" stroke="#046bd2" stroke-width="2"/>
+  <text x="310" y="300" text-anchor="middle" font-size="19" font-weight="700" fill="#0b1f33">하나의 세션</text>
+  <text x="310" y="326" text-anchor="middle" font-size="14" fill="#33475b">PRD · design.md</text>
+  <text x="310" y="346" text-anchor="middle" font-size="14" fill="#33475b">컨텍스트 유지</text>
+
+  <!-- stage 1: top -->
+  <g>
+    <rect x="200" y="40" width="220" height="90" rx="14" fill="#046bd2"/>
+    <text x="310" y="76" text-anchor="middle" font-size="17" font-weight="700" fill="#ffffff">레퍼런스 수집</text>
+    <text x="310" y="102" text-anchor="middle" font-size="13" fill="#dceafc">Mobbin MCP로 참고 화면 확보</text>
+  </g>
+
+  <!-- stage 2: right -->
+  <g>
+    <rect x="450" y="265" width="150" height="90" rx="14" fill="#0b1f33"/>
+    <text x="525" y="301" text-anchor="middle" font-size="17" font-weight="700" fill="#ffffff">컨셉 시안</text>
+    <text x="525" y="323" text-anchor="middle" font-size="13" fill="#c7d2dc">아트보드 캔버스</text>
+    <text x="525" y="341" text-anchor="middle" font-size="13" fill="#c7d2dc">여러 개 병렬 생성</text>
+  </g>
+
+  <!-- stage 3: bottom -->
+  <g>
+    <rect x="200" y="490" width="220" height="90" rx="14" fill="#046bd2"/>
+    <text x="310" y="526" text-anchor="middle" font-size="17" font-weight="700" fill="#ffffff">디자인 시스템 수립</text>
+    <text x="310" y="552" text-anchor="middle" font-size="13" fill="#dceafc">색상, 타이포, 컴포넌트 확정</text>
+  </g>
+
+  <!-- stage 4: left -->
+  <g>
+    <rect x="20" y="265" width="150" height="90" rx="14" fill="#0b1f33"/>
+    <text x="95" y="301" text-anchor="middle" font-size="17" font-weight="700" fill="#ffffff">개발 구현</text>
+    <text x="95" y="323" text-anchor="middle" font-size="13" fill="#c7d2dc">선택한 시안을</text>
+    <text x="95" y="341" text-anchor="middle" font-size="13" fill="#c7d2dc">코드로 반영</text>
+  </g>
+
+  <!-- direction arrows drawn on top of the boxes, short strokes just outside each box edge -->
+  <path d="M 375 152 A 175 175 0 0 1 448 228" fill="none" stroke="#046bd2" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M 448 392 A 175 175 0 0 1 375 468" fill="none" stroke="#046bd2" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M 245 468 A 175 175 0 0 1 172 392" fill="none" stroke="#046bd2" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M 172 228 A 175 175 0 0 1 245 152" fill="none" stroke="#046bd2" stroke-width="3" marker-end="url(#arrow)"/>
+</svg>
