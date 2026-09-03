@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 430" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif">
+  <rect width="500" height="430" fill="#ffffff"/>
+  <text x="250" y="28" text-anchor="middle" font-size="18" font-weight="700" fill="#1a1a1a">장치 관리자에서 연결 속도 확인</text>
+
+  <!-- window -->
+  <g transform="translate(20,48)">
+    <rect x="0" y="0" width="460" height="360" rx="6" fill="#fbfbfc" stroke="#c4c9d0" stroke-width="1.5"/>
+    <rect x="0" y="0" width="460" height="30" rx="6" fill="#eef0f3"/>
+    <text x="14" y="20" font-size="13" fill="#444">장치 관리자   ·   보기 → 장치를 연결별로 표시</text>
+
+    <g font-size="13.5" fill="#333">
+      <text x="18" y="58">▸ 범용 직렬 버스 컨트롤러</text>
+      <text x="40" y="84">▾ USB 3.0 확장 가능 호스트 컨트롤러</text>
+      <text x="66" y="110">▾ USB 루트 허브 (USB 3.0)</text>
+
+      <rect x="86" y="123" width="300" height="26" rx="4" fill="#e7f4ea" stroke="#7cb891"/>
+      <text x="96" y="141" fill="#1f7a33" font-weight="600">USB 대용량 저장 장치  ← 3.0 속도</text>
+
+      <text x="40" y="182">▾ USB 2.0 확장 가능 호스트 컨트롤러</text>
+      <text x="66" y="208">▾ USB 루트 허브 (USB 2.0)</text>
+      <rect x="86" y="221" width="330" height="26" rx="4" fill="#fbe9e7" stroke="#e0b4ac"/>
+      <text x="96" y="239" fill="#b5321f" font-weight="600">USB 대용량 저장 장치  ← 여기 붙으면 2.0</text>
+    </g>
+
+    <line x1="18" y1="268" x2="442" y2="268" stroke="#e0e0e0"/>
+    <text x="18" y="292" font-size="13" fill="#555" font-weight="700">더 확실한 방법</text>
+    <text x="18" y="314" font-size="12.5" fill="#555">USBTreeView 같은 무료 도구를 실행하면</text>
+    <text x="18" y="333" font-size="12.5" fill="#555">장치마다 SuperSpeed(3.0)인지</text>
+    <text x="18" y="352" font-size="12.5" fill="#555">High-Speed(2.0)인지 바로 표시됩니다</text>
+  </g>
+</svg>
