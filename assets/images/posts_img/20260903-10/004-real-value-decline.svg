@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="320" viewBox="0 0 560 320" font-family="'Malgun Gothic','맑은 고딕',sans-serif">
+  <rect width="560" height="320" fill="#ffffff"/>
+  <text x="28" y="38" font-size="19" font-weight="700" fill="#1a1a1a">1995년생이 받는 국민연금의 현재 가치</text>
+  <text x="28" y="60" font-size="13" fill="#777">나이가 들수록 실질 구매력은 계속 줄어든다 (단위 만 원)</text>
+
+  <!-- baseline -->
+  <line x1="28" y1="270" x2="532" y2="270" stroke="#d9d9d9" stroke-width="1"/>
+
+  <!-- 65세 -->
+  <rect x="70" y="110" width="90" height="160" fill="#046bd2"/>
+  <text x="115" y="100" font-size="15" font-weight="700" fill="#046bd2" text-anchor="middle">80.2</text>
+  <text x="115" y="292" font-size="13" fill="#555" text-anchor="middle">65세 (2060년)</text>
+
+  <!-- 75세 -->
+  <rect x="235" y="135" width="90" height="135" fill="#5a9bd8"/>
+  <text x="280" y="125" font-size="15" font-weight="700" fill="#046bd2" text-anchor="middle">67.5</text>
+  <text x="280" y="292" font-size="13" fill="#555" text-anchor="middle">75세 (2070년)</text>
+
+  <!-- 85세 -->
+  <rect x="400" y="156" width="90" height="114" fill="#9cc3e6"/>
+  <text x="445" y="146" font-size="15" font-weight="700" fill="#046bd2" text-anchor="middle">56.9</text>
+  <text x="445" y="292" font-size="13" fill="#555" text-anchor="middle">85세 (2080년)</text>
+
+  <text x="28" y="314" font-size="11" fill="#999">보건복지부 추산, 임금상승률 3.77% 할인율 적용</text>
+</svg>
