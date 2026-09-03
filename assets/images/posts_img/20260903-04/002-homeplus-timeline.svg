@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 620" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+  <rect x="0" y="0" width="560" height="620" fill="#ffffff"/>
+
+  <!-- vertical line -->
+  <line x1="90" y1="40" x2="90" y2="580" stroke="#d9d9d9" stroke-width="4"/>
+
+  <!-- event 1 -->
+  <circle cx="90" cy="55" r="10" fill="#046bd2"/>
+  <text x="118" y="45" font-size="15" fill="#888888">2025.03.04</text>
+  <text x="118" y="70" font-size="17" font-weight="bold" fill="#222222">회생절차 신청 및 개시 결정</text>
+  <text x="118" y="92" font-size="14" fill="#555555">신용등급 하락으로 단기자금 조달에 어려움을 겪자</text>
+  <text x="118" y="112" font-size="14" fill="#555555">법원에 기업회생절차를 신청</text>
+
+  <!-- event 2 -->
+  <circle cx="90" cy="185" r="10" fill="#e0432c"/>
+  <text x="118" y="175" font-size="15" fill="#888888">2026.07.03</text>
+  <text x="118" y="200" font-size="17" font-weight="bold" fill="#222222">회생절차 폐지 결정</text>
+  <text x="118" y="222" font-size="14" fill="#555555">최소 운영자금 2000억 원을 확보하지 못해</text>
+  <text x="118" y="242" font-size="14" fill="#555555">법원이 절차 폐지, 청산 위기 직면</text>
+
+  <!-- event 3 -->
+  <circle cx="90" cy="315" r="10" fill="#e0432c"/>
+  <text x="118" y="305" font-size="15" fill="#888888">2026.07.13</text>
+  <text x="118" y="330" font-size="17" font-weight="bold" fill="#222222">본사 및 전국 67개 점포 임시 휴업</text>
+  <text x="118" y="352" font-size="14" fill="#555555">메리츠금융이 긴급운영자금(DIP) 2000억 원을</text>
+  <text x="118" y="372" font-size="14" fill="#555555">투입, 즉시항고로 폐지 결정 취소</text>
+
+  <!-- event 4 -->
+  <circle cx="90" cy="445" r="10" fill="#2ca02c"/>
+  <text x="118" y="435" font-size="15" fill="#888888">2026.08.13</text>
+  <text x="118" y="460" font-size="17" font-weight="bold" fill="#222222">전 점포 영업 재개</text>
+  <text x="118" y="482" font-size="14" fill="#555555">약 한 달간의 임시 휴업을 끝내고</text>
+  <text x="118" y="502" font-size="14" fill="#555555">전국 매장이 다시 문을 염</text>
+
+  <!-- event 5 -->
+  <circle cx="90" cy="565" r="12" fill="#046bd2"/>
+  <text x="118" y="555" font-size="15" fill="#888888">2026.09.02</text>
+  <text x="118" y="580" font-size="17" font-weight="bold" fill="#046bd2">회생계획안 가결 및 법원 인가</text>
+  <text x="118" y="602" font-size="14" fill="#555555">채권자 3개 조 모두 가결 기준 통과, 파산 위기를 넘김</text>
+</svg>
