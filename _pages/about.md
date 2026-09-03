@@ -7,4 +7,4 @@ comments: false
 
 안녕하세요! devLogBase입니다.
 
-암호화폐(Crypto), 투자(Investment), 생활 이슈(Issue), AI, 알고리즘(Algorithm) 등 관심 가는 주제를 정리해서 기록하는 블로그입니다.
+AI, 알고리즘(Algorithm), 암호화폐(Crypto), 일상(Daily), 엔터테인먼트(Entertainment), 게임(Game), 투자(Investment), 생활 이슈(Issue) 등 관심 가는 주제를 정리해서 기록하는 블로그입니다.
