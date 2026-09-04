@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 288" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+  <rect width="640" height="288" fill="#ffffff"/>
+  <text x="320" y="32" text-anchor="middle" font-size="18" font-weight="700" fill="#1a1a1a">소각하면 남은 주주의 몫이 커진다</text>
+
+  <!-- before: 10 blocks in 2 rows of 5 -->
+  <text x="150" y="66" text-anchor="middle" font-size="14" font-weight="700" fill="#333">소각 전 : 총 10주</text>
+  <g>
+    <!-- row 1 -->
+    <rect x="55" y="82" width="34" height="34" rx="4" fill="#046bd2"/>
+    <rect x="93" y="82" width="34" height="34" rx="4" fill="#046bd2"/>
+    <rect x="131" y="82" width="34" height="34" rx="4" fill="#e4e9ee"/>
+    <rect x="169" y="82" width="34" height="34" rx="4" fill="#e4e9ee"/>
+    <rect x="207" y="82" width="34" height="34" rx="4" fill="#e4e9ee"/>
+    <!-- row 2 -->
+    <rect x="55" y="120" width="34" height="34" rx="4" fill="#e4e9ee"/>
+    <rect x="93" y="120" width="34" height="34" rx="4" fill="#e4e9ee"/>
+    <rect x="131" y="120" width="34" height="34" rx="4" fill="#e4e9ee"/>
+    <rect x="169" y="120" width="34" height="34" rx="4" fill="#e4e9ee"/>
+    <rect x="207" y="120" width="34" height="34" rx="4" fill="#e4e9ee"/>
+  </g>
+  <text x="148" y="182" text-anchor="middle" font-size="13" fill="#333">파란 칸이 내 주식 2주</text>
+  <text x="148" y="202" text-anchor="middle" font-size="13" font-weight="700" fill="#046bd2">내 지분율 20%</text>
+
+  <!-- arrow -->
+  <line x1="270" y1="118" x2="330" y2="118" stroke="#888" stroke-width="2.5" marker-end="url(#b)"/>
+  <text x="300" y="106" text-anchor="middle" font-size="12" fill="#666">2주 소각</text>
+
+  <!-- after: 8 blocks -->
+  <text x="470" y="66" text-anchor="middle" font-size="14" font-weight="700" fill="#333">소각 후 : 총 8주</text>
+  <g>
+    <rect x="375" y="82" width="34" height="34" rx="4" fill="#1a9e54"/>
+    <rect x="413" y="82" width="34" height="34" rx="4" fill="#1a9e54"/>
+    <rect x="451" y="82" width="34" height="34" rx="4" fill="#dce8e0"/>
+    <rect x="489" y="82" width="34" height="34" rx="4" fill="#dce8e0"/>
+    <rect x="375" y="120" width="34" height="34" rx="4" fill="#dce8e0"/>
+    <rect x="413" y="120" width="34" height="34" rx="4" fill="#dce8e0"/>
+    <rect x="451" y="120" width="34" height="34" rx="4" fill="#dce8e0"/>
+    <rect x="489" y="120" width="34" height="34" rx="4" fill="#dce8e0"/>
+    <!-- removed slots -->
+    <rect x="527" y="82" width="34" height="34" rx="4" fill="none" stroke="#c94a4a" stroke-width="1.5" stroke-dasharray="4 3"/>
+    <rect x="527" y="120" width="34" height="34" rx="4" fill="none" stroke="#c94a4a" stroke-width="1.5" stroke-dasharray="4 3"/>
+    <line x1="529" y1="84" x2="559" y2="114" stroke="#c94a4a" stroke-width="1.5"/>
+    <line x1="559" y1="84" x2="529" y2="114" stroke="#c94a4a" stroke-width="1.5"/>
+    <line x1="529" y1="122" x2="559" y2="152" stroke="#c94a4a" stroke-width="1.5"/>
+    <line x1="559" y1="122" x2="529" y2="152" stroke="#c94a4a" stroke-width="1.5"/>
+  </g>
+  <text x="450" y="182" text-anchor="middle" font-size="13" fill="#333">내 주식은 그대로 2주</text>
+  <text x="450" y="202" text-anchor="middle" font-size="13" font-weight="700" fill="#1a9e54">내 지분율 25%</text>
+
+  <text x="320" y="248" text-anchor="middle" font-size="12.5" fill="#666">회사 가치는 그대로인데 전체 주식 수만 줄어</text>
+  <text x="320" y="268" text-anchor="middle" font-size="12.5" fill="#666">1주당 값어치와 내 지분율이 함께 올라간다</text>
+
+  <defs>
+    <marker id="b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#888"/>
+    </marker>
+  </defs>
+</svg>
