@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 432" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+  <rect width="480" height="432" fill="#ffffff"/>
+  <text x="24" y="34" font-size="19" font-weight="700" fill="#1a1a1a">조춘청랑 10년 서사 한눈에</text>
+  <text x="24" y="56" font-size="12" fill="#888">넷플릭스 21화까지 공개 기준 (2026년 9월 7일)</text>
+
+  <line x1="40" y1="86" x2="40" y2="372" stroke="#d0d7e2" stroke-width="3"/>
+
+  <!-- 1 -->
+  <circle cx="40" cy="100" r="13" fill="#046bd2"/>
+  <text x="40" y="105" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">1</text>
+  <text x="66" y="97" font-size="15" font-weight="700" fill="#1a1a1a">입사와 첫 만남</text>
+  <text x="66" y="117" font-size="12.5" fill="#555">상즈타오가 광고회사 입사, 독설 상사 뤄녠과 출장 중 사고로 가까워짐</text>
+
+  <!-- 2 -->
+  <circle cx="40" cy="168" r="13" fill="#046bd2"/>
+  <text x="40" y="173" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">2</text>
+  <text x="66" y="165" font-size="15" font-weight="700" fill="#1a1a1a">6년간 비밀 사내연애</text>
+  <text x="66" y="185" font-size="12.5" fill="#555">협업 프로젝트로 관계 회복, 사내에 숨긴 채 연애를 이어감</text>
+
+  <!-- 3 -->
+  <circle cx="40" cy="236" r="13" fill="#046bd2"/>
+  <text x="40" y="241" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">3</text>
+  <text x="66" y="233" font-size="15" font-weight="700" fill="#1a1a1a">지위 격차와 갈등</text>
+  <text x="66" y="253" font-size="12.5" fill="#555">사내 사건, 공개 징계, 성희롱 사건 등으로 관계가 흔들림</text>
+
+  <!-- 4 -->
+  <circle cx="40" cy="304" r="13" fill="#046bd2"/>
+  <text x="40" y="309" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">4</text>
+  <text x="66" y="301" font-size="15" font-weight="700" fill="#1a1a1a">청혼, 그리고 이별</text>
+  <text x="66" y="321" font-size="12.5" fill="#555">상즈타오의 결혼 제안을 뤄녠이 거절, 두 사람은 완전히 헤어짐</text>
+
+  <!-- 5 -->
+  <circle cx="40" cy="372" r="13" fill="#e0752d"/>
+  <text x="40" y="377" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">5</text>
+  <text x="66" y="369" font-size="15" font-weight="700" fill="#1a1a1a">4년 후, 하얼빈에서 재회</text>
+  <text x="66" y="389" font-size="12.5" fill="#555">각자 성장한 뒤 다시 마주침. 상즈타오는 고향에서 자기 사업을 운영</text>
+  <text x="66" y="409" font-size="12.5" fill="#999">결말(24화)은 9월 9일 완결분에서 공개</text>
+</svg>
