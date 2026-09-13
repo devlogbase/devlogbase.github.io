@@ -15,7 +15,7 @@ toc: true
 toc_sticky: true
 
 date: 2026-09-06
-last_modified_at: 2026-09-06
+last_modified_at: 2026-09-14
 ---
 
 MBC 금토드라마 '유부녀 킬러'는 12회 마지막에 두 장면을 겹쳐 보여줬습니다. 놀이공원에서 딸과 웃는 유보나 가족, 그리고 같은 시각 도심 한복판에서 총에 맞아 쓰러지는 중년 남자.
@@ -136,6 +136,8 @@ MBC 금토드라마 '유부녀 킬러'는 12회 마지막에 두 장면을 겹�
 - 정체를 알게 된 권태성과 유보나의 관계가 어떻게 재편될지
 
 13회는 9월 11일 금요일 밤 9시 50분, 14회는 9월 12일에 방송되며 이 회차로 종영합니다.
+
+결말까지 이어지는 이야기는 [유부녀 킬러 결말까지 총정리](/entertainment/20260914-02/)에서 확인할 수 있습니다.
 
 <a href="https://program.imbc.com/ABonafideKiller" class="btn btn--large" style="background-color: #046bd2; color: #fff;">MBC 공식 페이지</a>
 {: style="text-align: center;"}
