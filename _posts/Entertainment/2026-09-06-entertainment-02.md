@@ -15,7 +15,7 @@ toc: true
 toc_sticky: true
 
 date: 2026-09-06
-last_modified_at: 2026-09-06
+last_modified_at: 2026-09-14
 ---
 
 결론부터 말하면 시즌1을 안 봤어도 재벌X형사2는 볼 수 있습니다. 시즌1은 진이수라는 캐릭터가 형사가 되는 과정을 그렸고, 시즌2는 그 진이수가 이미 완성된 상태에서 새 팀장, 새 사건과 함께 다시 출발하기 때문입니다.
@@ -132,6 +132,8 @@ OTT는 디즈니플러스 단독입니다. 넷플릭스나 웨이브, 티빙에�
 - 진이수와 주혜라의 공조가 이 마지막 사건에서 어떤 결말로 이어질지
 
 11회와 12회는 9월 11일과 12일, 13회와 14회는 9월 18일과 19일에 방송되며 14회로 종영합니다.
+
+11회와 12회에서 실제로 벌어진 일은 [재벌X형사2 11화 12화 총정리](/entertainment/20260914-03/)에서 확인할 수 있습니다.
 
 <a href="https://programs.sbs.co.kr/drama/sd243062/main" class="btn btn--large" style="background-color: #046bd2; color: #fff;">SBS 공식 페이지</a>
 {: style="text-align: center;"}
