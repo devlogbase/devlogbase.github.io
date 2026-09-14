@@ -53,7 +53,7 @@ last_modified_at: 2026-09-14
 
 <div style="text-align: center;">
 <a href="/assets/images/posts_img/20260914-05/002-team-still.jpg">
-  <img src="/assets/images/posts_img/20260914-05/002-team-still.jpg" alt="로또 1등도 출근합니다 스틸 모음, 모니터를 보는 정장 차림의 공은태와 사복 차림의 양준호, 사무실에서 대화하는 팀원들, 서류를 든 채 웃는 박기태와 태블릿을 든 이지혜의 모습이 네 칸으로 이어져 있다" title="로또 1등도 출근합니다 영업5팀" style="max-width: 450px; width: 100%; height: auto;">
+  <img src="/assets/images/posts_img/20260914-05/002-team-still.jpg" alt="로또 1등도 출근합니다 스틸 모음, 모니터를 보는 정장 차림의 공은태와 사복 차림의 양준호가 위쪽에, 여러 팀원이 사무실에서 대화하는 넓은 장면이 가운데에, 서류를 든 채 웃는 박기태와 태블릿을 든 이지혜의 모습이 아래쪽에 이어져 있다" title="로또 1등도 출근합니다 영업5팀" style="max-width: 450px; width: 100%; height: auto;">
 </a>
 </div>
 
