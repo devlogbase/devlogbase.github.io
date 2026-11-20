@@ -37,3 +37,16 @@ td,
 th {
   vertical-align: middle;
 }
+
+/* 본문 표 가운데 정렬 : 표 위치와 칸 글자 모두 (코드 블록 줄번호 표는 제외) */
+.page__content table:not(.rouge-table) {
+  width: fit-content;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+  th,
+  td {
+    text-align: center;
+  }
+}
